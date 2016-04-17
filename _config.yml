@@ -17,6 +17,7 @@ url: "http://julieeckstrom.com" # the base hostname & protocol for your site
 twitter_username: julieeckstrom
 github_username:  julieeckstrom
 include: ["_pages"]
+collections: ["_projects"]
 
 # Build settings
 markdown: kramdown
