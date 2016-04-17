@@ -1,6 +1,7 @@
 ---
+layout: page
 permalink: /about/
 title: About page
 ---
 
-This is the about page.
+Here's the about page. 
