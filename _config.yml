@@ -18,7 +18,9 @@ twitter_username: julieeckstrom
 github_username:  julieeckstrom
 include: ["_pages"]
 collections: 
-- projects
+ projects:
+  output: true
+  title: Projects
 
 # Build settings
 markdown: kramdown

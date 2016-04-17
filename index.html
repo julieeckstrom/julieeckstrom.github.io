@@ -18,12 +18,12 @@ layout: default
     {% endfor %}
   </ul>
 
-  <ul class="post-list">
+  <ul class="project-list">
     {% for project in site.pages.projects %}
       <li>
 
         <h2>
-          <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          Title:<a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
         </h2>
       </li>
     {% endfor %}
