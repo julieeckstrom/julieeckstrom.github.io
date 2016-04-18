@@ -3,7 +3,7 @@ layout: project
 title:  "Calia"
 categories: websites
 images: 
- - url: assets/img/300.jpg
+ - url: /assets/img/300.jpg
    title: Kitten
    alt: kitten
 ---
