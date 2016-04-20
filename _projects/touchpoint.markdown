@@ -1,10 +1,11 @@
 ---
 layout: project
-title:  "Teletracking Touchpoint"
-organization: "CMU"
+title:  Touchpoint
+description: iPhone App Design
+organization: CMU / Teletracking
 year: 2014
-methods: "Surveys, Diary Study, Card Sorts, Ethnographic Observation, Affinity Diagramming"
-tools: "Pencil/Paper, Paper Prototyping, Balsamiq Mockups, Adobe Illustrator, Adobe Photoshop"
+methods: Surveys, Diary Study, Card Sorts, Ethnographic Observation, Affinity Diagramming
+tools: Pencil/Paper, Paper Prototyping, Balsamiq Mockups, Adobe Illustrator, Adobe Photoshop
 images: 
  - url: /assets/img/300.jpg
    title: Kitten

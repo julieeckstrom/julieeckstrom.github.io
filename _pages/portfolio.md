@@ -1,0 +1,16 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+
+<ul class="project-list">
+{% for project in site.projects %}
+  <li>
+
+    <h2>
+      <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+    </h2>
+  </li>
+{% endfor %}
+</ul>
