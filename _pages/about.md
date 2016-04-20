@@ -1,7 +1,9 @@
 ---
 layout: page
+browser-title: About
 title: About
 permalink: /about/
+order: 2
 ---
 
 I am an interaction designer currently working at Bossa Nova Robotics, in Pittsburgh, PA. I strongly believe in designing the right thing, and am involved in the entire design process, from ethnographic and user research, to strategy and information architecture, interaction design, visual design, and iterative testing along the way. My favorite thing to do is organize life. I believe insight is best discovered once our concepts and information are organized in a way that makes them shine through. 

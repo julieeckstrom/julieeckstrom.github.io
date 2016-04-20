@@ -1,5 +1,7 @@
 ---
 layout: posts
+browser-title: Blog of
 title: Blog
-permalink: /about/
+permalink: /blog/
+order: 3
 ---

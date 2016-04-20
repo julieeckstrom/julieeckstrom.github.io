@@ -1,7 +1,9 @@
 ---
 layout: page
+browser-title: Portfolio of
 title: Portfolio
 permalink: /portfolio/
+order: 1
 ---
 
 <ul class="project-list">
