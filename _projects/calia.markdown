@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Calia
+title:  CALIA
 description: Ecommerce Website Design
 organization: Dick's Sporting Goods
 year: 2015
@@ -12,7 +12,7 @@ images:
    alt: kitten
 ---
 
-Carrie Underwood and Dick's Sporting Goods teamed up to create the women's athleisure line, CALIA by Carrie Underwood. Thirty days before product launch in March 2015, my team was asked to create an eCommerce website for the brand.
+Ecommerce website for Carrie Underwood's athleisure line for women. and Dick's Sporting Goods teamed up to create the women's athleisure line, CALIA by Carrie Underwood. Thirty days before product launch in March 2015, my team was asked to create an eCommerce website for the brand.
 
 # My Role
 
