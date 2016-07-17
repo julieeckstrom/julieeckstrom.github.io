@@ -12,6 +12,7 @@ images:
    alt: kitten
 
 ---
+
 # My Role
 
 I was the co-design lead on the project. My responsiblities were to create the necessary assets for research, create presentations and images for presentations, do the print design of 100-some page Spring report book, and do the interaction and visual design for the app while still keeping in mind all viewpoints of our team. All of us shared responsibility for conducting research, analyzing results, and presenting our findings.

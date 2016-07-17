@@ -207,3 +207,14 @@
         font-size: 36px;
     }
 }
+
+
+/**
+* Projects
+*/
+.project-content p { @include one-third-column(); }
+.project-conent img { @include two-thirds-column(); }
+
+.project-image {
+    width: 100%;
+}

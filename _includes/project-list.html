@@ -1,6 +1,14 @@
+{% assign counter = 0 %}
 {% for project in site.projects %}
-  <div class="three column">
-  	<a class="project-link" href="{{ project.url | prepend: site.baseurl }}"><h2>{{ project.title }}</h2></a>
- 	<p>{{ project.description }}</p>
-  </div>
+	{% capture modulo %}{{ forloop.index0 | modulo:3 }}{% endcapture %}
+	{% if modulo == '0' or forloop.first %}
+		<div class="row">
+	{% endif %}
+		<div class="four columns">
+		  	<a class="project-link" href="{{ project.url | prepend: site.baseurl }}"><h2>{{ project.title }}</h2></a>
+		 	<p>{{ project.description }}</p>
+		</div>
+	{% if modulo == '2' or forloop.last %}
+		</div>
+	{% endif %}
 {% endfor %}

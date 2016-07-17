@@ -23,6 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    1224px;
+$grid-margin-percent:   4%;
 
 $smallest:         400px;
 $small:            550px;
@@ -48,9 +49,10 @@ $largest:          1200px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "grid",
         "base",
         "layout",
         "syntax-highlighting", 
-        "home",
-        "grid"
+        "home"
+        
 ;
