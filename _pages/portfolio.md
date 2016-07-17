@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: secondary
 browser-title: Portfolio of
 title: Portfolio
 permalink: /portfolio/
