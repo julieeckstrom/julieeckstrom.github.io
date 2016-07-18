@@ -91,7 +91,6 @@
 }
 
 
-
 /**
  * Site footer
  */
@@ -210,11 +209,33 @@
 
 
 /**
-* Projects
+* Project page
 */
 .project-content p { @include one-third-column(); }
 .project-conent img { @include two-thirds-column(); }
 
 .project-image {
+    width: 100%;
+}
+
+
+/** 
+* Project grid
+*/
+.project .image {
+    height: 200px;
+    width: 100%;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project .image img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
 }

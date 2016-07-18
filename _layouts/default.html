@@ -3,9 +3,15 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="homepage-body">
 
-    <div class="page-content">
+	  <div class="title-image">
+	      <img src="{{ page.title-image }}">
+	  </div>
+
+  	{% include header.html %}
+
+    <div class="homepage-content">
       <div class="wrapper">
         {{ content }}
       </div>
