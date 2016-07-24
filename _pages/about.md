@@ -1,13 +1,15 @@
 ---
 layout: secondary
 browser-title: About
-title: About
+title: About Julie
 permalink: /about/
-order: 2
+order: 4
 ---
 
-I am a Designer (interaction, user experience, service, whatever title you want to place on it) currently working at Bossa Nova Robotics, in Pittsburgh, Pennsylvania. I believe in designing the right thing within given and found contraints. I work in the entire design process, from ethnographic and user research, to strategy and information architecture, interaction design, visual design, and iterative testing along the way. Organizing qualitative and quantitative information runs in my blood. I believe insight is best discovered once our concepts and information are organized in a way that makes them shine through. 
+Julie is a designer involved in design research, interaction design, service design, experience design, and information design. At the moment she's working at Bossa Nova Robotics in Pittsburgh, PA. Julie is a strong believer in using design thinking to do good, and she believes that technology can create positive change in the world when many perspectives are involved in building it. She is interested how design thinking can help make technology fields more accessible to those who may be intimidated by traditional information structures or masculine language and design.
 
-I'm currently working at Bossa Nova Robotics, where I'm designing a human-robot interaction experience. I also design internal applications needed to operate and solve problems, and the initial and continued service of introducing a robot into a retail store. I'm also heavily involved in defining the direction of our brand and cultural identity. My latest passion is findings ways that my and my team's virtual and physical designs can help demystify robotics sciences to lower the bar of entry.
+In robotics, Julie is demonstrating a holistic approach to design by creating an entire human experience around a robot, from the virtual experience of the software engineers who operate and monitor the robots to the physical experience of passersby to the robot.
 
-I have previously worked at Dick's Sporting Goods as the lead mobile UX designer, and before that I was at Branding Brand, where I worked with brands such as Ralph Lauren, Sephora, Costco, and American Eagle.
+Julie has previously worked in eCommerce, where she designed mobile experiences for Fortune 500 companies. She also worked as the lead designer for the Dick's Sporting Goods mobile properties where she launched the eCommerce experience for CALIA by Carrie Underwood.
+
+Julie received her master's degree in Human-Computer Interaction, and her bachelor's degree in Information Systems and Human-Computer Interaction from Carnegie Mellon University in 2014.

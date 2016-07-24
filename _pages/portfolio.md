@@ -1,7 +1,7 @@
 ---
 layout: secondary
-browser-title: Portfolio of
-title: Portfolio
+browser-title: Work of
+title: Work
 permalink: /portfolio/
 order: 1
 ---

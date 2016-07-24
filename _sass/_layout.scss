@@ -3,15 +3,20 @@
  */
 .site-header {
     min-height: 56px;
+    padding: 2.6em 0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    @include media-query($small) {
+        padding: 1.5em 0;
+    }
 }
 
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 43px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -19,6 +24,11 @@
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    @include media-query($small) {
+        line-height: 25px;
+        height: 40px;
     }
 }
 
@@ -32,28 +42,34 @@
 
     .page-link {
         color: $text-color;
+        font-size: 1.6em;
+        text-transform: uppercase;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 40px;
+
+            @include media-query($medium) {
+                margin-right: 25px;
+            }
         }
+
     }
+
 
     @include media-query($small) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
         .menu-icon {
             display: block;
             float: right;
-            width: 36px;
-            height: 26px;
+            width: 40px;
+            height: 30px;
             line-height: 0;
             padding-top: 10px;
             text-align: center;

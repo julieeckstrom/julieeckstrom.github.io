@@ -1,7 +1,7 @@
 ---
 layout: posts
-browser-title: Blog of
-title: Blog
+browser-title: Writing of
+title: Writing
 permalink: /blog/
 order: 3
 ---
