@@ -14,7 +14,7 @@ images:
 
 # Challenge
 
-To take the existing Dick's Sporting Goods mobile site and make it more refined and usable.
+Update the existing Dick's Sporting Goods mobile site to make it more refined and usable.
 
 # The Result
 
