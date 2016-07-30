@@ -12,15 +12,15 @@ images:
    alt: kitten
 ---
 
-# Challenge
+## Challenge
 
 Update the existing Dick's Sporting Goods mobile site to make it more refined and usable.
 
-# The Result
+## The Result
 
 Small changes were made to the 
 
-# My Role
+## My Role
 
 As the sole UX designer for the mobile and tablet sites, I suggest what needs to be done, create mockups, and turn them into requirements for third-party developers. Depending on the project, I'll conduct usability studies, card sorts, or tree tests, either with a mockup or a working prototype. My current ongoing project is to increase the legibility of the mobile site. Many of those changes will be launching soon.
 

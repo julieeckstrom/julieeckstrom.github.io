@@ -12,18 +12,18 @@ images:
    alt: kitten
 ---
 
-# Challenege
+## Challenege
 
 CALIA by Carrie Underwood is a Dick's Sporting Goods women's athleisure brand. We were challeneged with creating an eCommerce experience for the new product line, showcasing a lifestyle that encourages women to fit in working out.
 
-# The Result
+## The Result
 
 The CALIA website went live with the announcement of the brand launch in March 2015, getting tens of thousands of visitors a day.
 
-# Process
+## Process
 
 The website request came in a month before the product launch, so there was little time for a lot of work. An initial brief information gathering process revealed a look and feel that could work with the minimal product line. An exploration of other eCommerce sites with similar feels presented options to stakeholders. Mockups  went through a sign-off process with the internal Dick's marketing department and with Carrie Underwood's personal team. The site was developed and tested just in time for the product launch mid-March 2015.
 
-# My Role
+## My Role
 
 There was limited context that came with the request for the site, so I worked with merchanizers, product and project managers, and marketing to gather the branding and product requirements. I gathered inspiration websites that had similar feels to the brand. I created wireframes and mockups that were presented to all teams within the eCommerce department and the marketing department for sign-off. I collaborated with a production designer to create the final mockups, and created a responsive layout. I then worked with the developers to make sure they had the specs they needed, following up when development work was completed to ensure usability.
