@@ -3,24 +3,25 @@
 ---
 @charset "utf-8";
 @import "type.css";
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
-
+@import url(https://fonts.googleapis.com/css?family=Monda:400,700|Work+Sans:300,400,700);
 
 // Our variables
-$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+$base-font-family: "Work Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   62.5%;
 $base-font-weight: 400;
 $base-line-height: 1.5;
+$header-font-family: "Monda", Helvetica, Arial, sans-serif;
 
-$spacing-unit:     30px;
+$spacing-unit:     3em;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$accent-color:      #C99B42;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$white:				#ffffff;
 
 // Width of the content area
 $content-width:    1224px;

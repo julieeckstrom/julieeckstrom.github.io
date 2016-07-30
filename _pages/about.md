@@ -1,7 +1,7 @@
 ---
 layout: secondary
 browser-title: About
-title: About Julie
+title: About
 permalink: /about/
 order: 4
 ---

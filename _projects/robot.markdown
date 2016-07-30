@@ -12,17 +12,17 @@ images:
    alt: kitten
 ---
 
-# Challenge
+<h2 class="first">Challenge</h2>
 
 Create a positive interaction between a robot and people within a retail environment.
 
-# The Result
+## The Result
 
 Atlas is an ongoing project, and will be revealed in 2017!  
 
-# Process
+## Process
 
-## Constraints
+### Constraints
 
 The contraints on this project are interesting. The robot is human-sized, which means that it needs to follow some of the rules of human-human interaction. It can more easily be percieved as rude if it crosses the an affordance space (the space between a shopper and the shelf they're looking at). 
 
@@ -35,6 +35,6 @@ We were then able to create a goal persona, against which we'd be able to make d
 
 We spearheaded the communication work by testing ways the robot could communicate key pieces of information to the people around it. We went through 8 rounds of testing various types of communication, and various pieces of communication. 
 
-# My Role
+## My Role
 
 I'm the lead on the HRI project at Bossa Nova. All of the work described above is my own, along with a close collaboration with my design director. 

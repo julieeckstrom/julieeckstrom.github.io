@@ -112,3 +112,10 @@
     margin-left: $grid-margin-percent; 
     width: 65.3333333333%; }
   }
+
+@mixin one-half-column {
+  @media (min-width: $medium) {
+    margin-left: $grid-margin-percent;
+    width: 48%;
+  }
+}
