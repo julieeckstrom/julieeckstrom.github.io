@@ -23,7 +23,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $dark-grey;
     }
 
     @include media-query($small) {
@@ -92,7 +92,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $dark-grey;
                 }
             }
 
@@ -129,7 +129,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $light-grey;
     padding: $spacing-unit 0;
 }
 
@@ -146,7 +146,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $medium-grey;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -216,7 +216,7 @@
 }
 
 .post-meta {
-    color: $grey-color;
+    color: $medium-grey;
 }
 
 .post-link {
