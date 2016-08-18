@@ -3,27 +3,34 @@
 ---
 @charset "utf-8";
 @import "type.css";
-@import url(https://fonts.googleapis.com/css?family=Monda:400,700|Work+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i|Slabo+27px);
 
-// Our variables
-$base-font-family: "Work Sans", Helvetica, Arial, sans-serif;
+// Text
+$base-font-family: "Roboto", Helvetica, Arial, sans-serif;
 $base-font-size:   62.5%;
 $base-font-weight: 400;
-$base-line-height: 1.5;
-$header-font-family: "Monda", Helvetica, Arial, sans-serif;
+$base-line-height: 2.4em;
 
+$header-font-family: "Slabo", Helvetica, Arial, sans-serif;
+
+// Colors
+$background-color:	#fdfdfd;
+$text-color: 		#111111;
+
+$dark-grey:			#828282;
+$medium-grey:		#AFAFAF;
+$light-grey:		#DBDBDB;
+
+$accent-color:      #C99B42;
+$accent-dark:		darken($accent-color, 25%);
+
+$white:				#ffffff;
+$black:				#111111;
+
+
+// Spacing + width
 $spacing-unit:     3em;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$accent-color:      #C99B42;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-$white:				#ffffff;
-
-// Width of the content area
 $content-width:    1224px;
 $grid-margin-percent:   4%;
 

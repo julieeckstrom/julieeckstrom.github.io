@@ -2,17 +2,16 @@
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+p, ol, ul {
     margin: 0;
     padding: 0;
 }
 
 
 
-/**
- * Basic styling
- */
+/**************/
+/*    TEXT    */
+/**************/
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -27,33 +26,31 @@ body {
     height: 100%;
 }
 
-::selection {
-  background: $grey-color-dark; /* WebKit/Blink Browsers */
-  color: $white;
-}
 
-::-moz-selection {
-  background: #grey-color-dark; /* Gecko Browsers */
-  color: $white;
-}
-
-
-p, blockquote, pre,
-ul, ol, dl, figure,
+p, ul, ol,
 %vertical-rhythm {
     margin-bottom: 1.25em;
 }
 
 
-p { 
-    font-size: 1.6em;
-    font-weight: 300; 
+p, ul, ol { 
+    font-size: 1.5em;
+}
+
+::selection {
+  background: $dark-grey; /* WebKit/Blink Browsers */
+  color: $white;
+}
+
+::-moz-selection {
+  background: #dark-grey; /* Gecko Browsers */
+  color: $white;
 }
 
 
-/**
- * Lists
- */
+/**************/
+/*   Lists    */
+/**************/
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -66,10 +63,9 @@ li {
 }
 
 
-
-/**
- * Headings
- */
+/**************/
+/*  Headings  */
+/**************/
 h1, h2, h3 {
     font-weight: $base-font-weight;
     font-family: $header-font-family;
@@ -98,30 +94,28 @@ h3 {
 }
 
 
-/**
- * Links
- */
+/**************/
+/*    LINKS   */
+/**************/
 a {
     color: $accent-color;
     text-decoration: none;
     cursor: pointer;
+    font-weight: 500;
 
     &:visited {
-        color: darken($accent-color, 15%);
+        color: $accent-dark
     }
 
     &:hover {
         color: $text-color;
     }
 
-    .project-link {
-        color: $text-color;
-    }
 }
 
-/**
-* Buttons
-*/
+/**************/
+/*   BUTTONS  */
+/**************/
 
 .button.primary {
     border: 2px solid $accent-color;
@@ -134,24 +128,6 @@ a {
 
     &:hover {
         background: $accent-color;
-    }
-}
-
-
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
     }
 }
 
