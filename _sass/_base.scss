@@ -71,17 +71,20 @@ li {
 
 /*  Headings  */
 h1, h2, h3 {
-    font-weight: $base-font-weight;
-    font-family: $header-font-family;
+    color: $text-color;
 }
 
 h1 { 
     font-size: 3.4em;
     line-height: 4.1em; 
+    font-family: $header-font-family;
 }
 
 h2 { 
-    font-size: 1.7em; 
+    font-size: 1.7em;
+    line-height: $base-line-height;
+    font-weight: 500;
+    margin-top: 2em;
 
     &.first {
         margin-top: 0em;
