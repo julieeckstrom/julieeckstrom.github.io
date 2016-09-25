@@ -6,10 +6,11 @@ organization: Dick's Sporting Goods
 year: 2015
 methods: Information Gathering, Wireframing, Visual Design
 tools: Balsamiq Mockups, Adobe Illustrator
+order: 6
 images: 
- - url: /assets/img/300.jpg
-   title: Kitten
-   alt: kitten
+ - url: /assets/img/calia/hero.png
+   title: The CALIA studio website.
+   alt: An image of the CALIA studio website.
 ---
 
 ## Challenege

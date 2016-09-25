@@ -6,10 +6,11 @@ organization: Bossa Nova Robotics
 year: 2015
 methods: ethnographic research, analysis and synthesis of data
 tools: 
+order: 1
 images: 
- - url: /assets/img/300.jpg
-   title: Kitten
-   alt: kitten
+ - url: /assets/img/hri-research/hero.JPG
+   title: Gaeta+ in a retail store
+   alt: Gaeta+ standing amongst produce in a retail store
 ---
 
 <h2 class="first">Challenge</h2>

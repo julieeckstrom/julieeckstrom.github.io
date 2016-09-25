@@ -6,10 +6,11 @@ organization: Bossa Nova Robotics
 year: 2016 - ongoing
 methods:
 tools:
+order: 4
 images: 
- - url: /assets/img/300.jpg
-   title: Kitten
-   alt: kitten
+ - url: /assets/img/remote-monitoring/hero.JPG
+   title: Mockups of the remote monitoring interface.
+   alt: A process image of the Sketch file for remote monitoring.
 ---
 
 ## Challenge

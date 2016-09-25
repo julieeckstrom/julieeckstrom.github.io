@@ -6,10 +6,11 @@ organization: Bossa Nova Robotics
 year: 2015 - ongoing
 methods:
 tools:
+order: 3
 images: 
- - url: /assets/img/300.jpg
-   title: Kitten
-   alt: kitten
+ - url: /assets/img/hri-form/hero.JPG
+   title: A foam model moving down an aisle.
+   alt: A foam model moving down an aisle of a retail store.
 ---
 
 <h2 class="first">Challenge</h2>

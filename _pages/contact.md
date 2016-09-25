@@ -3,7 +3,7 @@ layout: secondary
 browser-title: Contact
 title: Contact
 permalink: /contact/
-order: 5
+order: 3
 ---
 
 Thanks for your interest. You can use one of the methods below to reach Julie.

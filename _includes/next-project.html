@@ -1,0 +1,30 @@
+{% if projectNumber == site.projects.size %}
+	{% assign next = 1 %}
+{% else %}
+	{% assign next = projectNumber + 1 %}
+{% endif %}
+
+{% if projectNumber == 1 %}
+	{% assign previous = sites.project.size %}
+{% else %}
+	{% assign previous = projectNumber - 1 %}
+{% endif %}
+
+
+{% assign next_project = site.projects | where:"order", next %}
+{% assign previous_project = site.projects | where:"order", previous %}
+
+{% assign close_projects = previous_project, next_project %}
+
+{% for project in close_projects %}
+<div class="row cards">
+	<div class="one-half column card">
+		<div class="card-image"><img src="{{ project.images[0].url }}" title="{{ project.images[0].title }}" alt="{{ project.images[0].alt }}"></div>
+		<div class="card-content">
+			<h2 class="first">{{ project.title }}</h2>
+			<p>{{ project.description }}</p>
+			<a class="project-link button primary" href="{{ project.url | prepend: site.baseurl }}">View Project</a>
+		</div>
+	</div>
+</div>
+{% endfor %}

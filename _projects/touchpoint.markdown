@@ -6,10 +6,11 @@ organization: CMU / Teletracking
 year: 2014
 methods: Surveys, Diary study, Card sorts, Ethnographic observation, Affinity diagramming
 tools: Pencil/Paper, Paper prototyping, Balsamiq Mockups, Adobe Illustrator, Adobe Photoshop
+order: 5
 images: 
- - url: /assets/img/300.jpg
-   title: Kitten
-   alt: kitten
+ - url: /assets/img/touchpoint/hero.png
+   title: The touchpoint app lying amongst the artifacts of life
+   alt: A phone lying on a table shows the Touchpoint app that's updated with Ben's surgery progress.
 
 ---
 

@@ -6,10 +6,11 @@ organization: Dick's Sporting Goods
 year: 2015
 methods: Wireframing, Visual Design, User Testing, Card Sort, Multivariate Testing
 tools: Balsamiq Mockups, Adobe Photoshop, HTML/CSS/JS
+order: 7
 images: 
- - url: /assets/img/300.jpg
-   title: Kitten
-   alt: kitten
+ - url: /assets/img/dsg/hero.png
+   title: The Dick's Sporting Goods mobile and tablet sites.
+   alt: An image of the Dick's Sporting Goods mobile and tablet sites.
 ---
 
 ## Challenge

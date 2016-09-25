@@ -6,10 +6,11 @@ organization: Bossa Nova Robotics
 year: 2015 - ongoing
 methods:
 tools:
+order: 2
 images: 
- - url: /assets/img/300.jpg
-   title: Kitten
-   alt: kitten
+ - url: /assets/img/hri-communication/hero.JPG
+   title: Gaeta+ with attached LEDs
+   alt: The robot moving through an aisle with a light pattern playing.
 ---
 
 <h2 class="first">Challenge</h2>
