@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  Dick's Sporting Goods Mobile Website
-description: Ecommerce Website Design
+title: Supporting atheltes with the right gear on their journey
+description: Refreshing the Dick's Sporting Goods mobile website to make it easier for athletes to get the gear they need.
 organization: Dick's Sporting Goods
 year: 2015
 methods: Wireframing, Visual Design, User Testing, Card Sort, Multivariate Testing
@@ -15,10 +15,6 @@ images:
 ## Challenge
 
 Update the existing Dick's Sporting Goods mobile site to make it more refined and usable.
-
-## The Result
-
-Small changes were made to the 
 
 ## My Role
 
