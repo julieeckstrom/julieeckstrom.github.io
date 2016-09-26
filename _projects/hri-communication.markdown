@@ -33,6 +33,8 @@ We then tested a screen with eyes. I mounted an iPad on the robot and had it mir
 
 We then tested lighting patterns in different configurations. I programmed the lighting patterns in Processing, and then controlled the Processing scripts from my laptop, which wirelessly connected to a Wi-Fi dongle attached to a Raspberry Pi powering a Fadecandy driver. The Fadecandy used the patterns to light up individually addressable Neopixel LEDs. I attached these LEDs to the robot and changed the lighting pattern as the robot moved around. This setup allowed us to test a variety of lighting patterns quickly.
 
+<figure><img src="/assets/img/hri-communication/hero.JPG"><figcaption>An image</figcaption></figure>
+
 We tested these visual indicators in the same way we collected our <a href="">original research data</a>. We asked shoppers a few simple questions about whether they felt the robot knew they were there and what they thought the light patterns meant. We also watched people move around the robot to see whether their movements changed with different light patterns. 
 
 Specifics cannot be shared, but overall we tested 10 lighting patterns in three combinations. We also tested sounds the robot could make in response to different triggers. We found a specific sound that calmed shoppers when near the robot, making them feel as though the robot was aware of their presence. More on this later.

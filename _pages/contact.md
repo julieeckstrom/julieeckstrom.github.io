@@ -1,5 +1,5 @@
 ---
-layout: secondary
+layout: without-bleed
 browser-title: Contact
 title: Contact
 permalink: /contact/

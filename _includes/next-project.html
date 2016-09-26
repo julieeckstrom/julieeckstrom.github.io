@@ -1,10 +1,11 @@
-{% if projectNumber == site.projects.size %}
+{% assign currentNumber = {{ include.param }} %}
+{% if currentNumber == site.projects.size %}
 	{% assign next = 1 %}
 {% else %}
 	{% assign next = projectNumber + 1 %}
 {% endif %}
 
-{% if projectNumber == 1 %}
+{% if currentNumber == 1 %}
 	{% assign previous = sites.project.size %}
 {% else %}
 	{% assign previous = projectNumber - 1 %}

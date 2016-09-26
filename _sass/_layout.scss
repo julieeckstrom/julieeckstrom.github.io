@@ -11,118 +11,134 @@
     @include media-query($small) {
         padding: 1.5em 0;
     }
-}
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 43px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $dark-grey;
-    }
-
-    @include media-query($small) {
-        line-height: 25px;
-        height: 40px;
-    }
-}
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        font-size: 1.6em;
-        text-transform: uppercase;
-        line-height: $base-line-height;
-        padding-bottom: 0.5em;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 40px;
-
-            @include media-query($medium) {
-                margin-right: 25px;
-            }
-        }
-
-        &.active {
-            color: $accent-color;
-        }
-
-        &:hover {
-            border-bottom: 2px solid $accent-color;
-        }
-
-    }
-
-
-    @include media-query($small) {
+    &.bleed {
         position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        border-radius: 5px;
-        text-align: right;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
 
-        .close-icon {
-            display: none;
-        }
-
-        .menu-icon, .close-icon.visible {
-            display: block;
-            float: right;
-            width: 40px;
-            height: 30px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $dark-grey;
-                }
-            }
-
-            &.invisible {
-                display: none;
+        .site-nav {
+            .page-link {
+                color: $background-color;
             }
         }
+    }
 
-        .trigger {
-            clear: both;
+    .site-title {
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 43px;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+        float: left;
+
+        &,
+        &:visited {
+            color: $dark-grey;
+        }
+
+        @include media-query($small) {
+            line-height: 25px;
+            height: 40px;
+        }
+    }
+
+    .site-nav {
+        float: right;
+        line-height: 56px;
+
+        .menu-icon {
             display: none;
-            background: #ffffff;
-
-            &.open {
-                display: block;
-                padding-bottom: 5px;
-            }
         }
 
         .page-link {
-            display: block;
-            padding: 5px 10px;
+            color: $text-color;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            line-height: $base-line-height;
+            padding-bottom: 0.5em;
 
+            // Gaps between nav items, but not on the last one
             &:not(:last-child) {
-                margin-right: 0;
+                margin-right: 40px;
+
+                @include media-query($medium) {
+                    margin-right: 25px;
+                }
             }
-            margin-left: 20px;
+
+            &.active {
+                color: $accent-color;
+            }
+
+            &:hover {
+                border-bottom: 2px solid $accent-color;
+            }
+
+        }
+
+
+        @include media-query($small) {
+            position: absolute;
+            top: 9px;
+            right: $spacing-unit / 2;
+            border-radius: 5px;
+            text-align: right;
+
+            .close-icon {
+                display: none;
+            }
+
+            .menu-icon, .close-icon.visible {
+                display: block;
+                float: right;
+                width: 40px;
+                height: 30px;
+                line-height: 0;
+                padding-top: 10px;
+                text-align: center;
+
+                > svg {
+                    width: 18px;
+                    height: 15px;
+
+                    path {
+                        fill: $dark-grey;
+                    }
+                }
+
+                &.invisible {
+                    display: none;
+                }
+            }
+
+            .trigger {
+                clear: both;
+                display: none;
+                background: #ffffff;
+
+                &.open {
+                    display: block;
+                    padding-bottom: 5px;
+                }
+            }
+
+            .page-link {
+                display: block;
+                padding: 5px 10px;
+
+                &:not(:last-child) {
+                    margin-right: 0;
+                }
+                margin-left: 20px;
+            }
         }
     }
 }
+
+
 
 
 /**
@@ -267,9 +283,8 @@
 }
 
 .card-image {
-    height: 400px;
+    height: 600px;
     width: 100%;
-    border-radius: 2px;
     position: relative;
     overflow: hidden;
 

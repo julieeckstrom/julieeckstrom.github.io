@@ -1,5 +1,5 @@
 ---
-layout: secondary
+layout: without-bleed
 browser-title: About
 title: About
 permalink: /about/

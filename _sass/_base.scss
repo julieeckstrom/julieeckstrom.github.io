@@ -27,7 +27,7 @@ body {
 }
 
 
-p, ul, ol,
+p, ul, ol, figure,
 %vertical-rhythm {
     margin-bottom: 1.25em;
 }
@@ -76,7 +76,6 @@ h1, h2, h3 {
 
 h1 { 
     font-size: 3.4em;
-    line-height: 4.1em; 
     font-family: $header-font-family;
 }
 
@@ -119,7 +118,7 @@ a {
     font-weight: 500;
 
     &:visited {
-        color: $accent-dark
+        color: $accent-dark;
     }
 
     &:hover {

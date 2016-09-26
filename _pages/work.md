@@ -1,5 +1,5 @@
 ---
-layout: secondary
+layout: with-bleed
 browser-title: Work of
 title: Work
 permalink: /work/
