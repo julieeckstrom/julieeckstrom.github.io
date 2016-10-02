@@ -298,6 +298,10 @@
         height: 600px;
         overflow: hidden;
 
+        @include media-query($medium) {
+            height: 600px;
+        }
+
         .hero-image {
             height: 100%;
             background-size: cover;
@@ -305,17 +309,31 @@
 
         .project-header {
             position: absolute;
-            background: rgba(33,33,33,0.8);
             text-align: center;
-            width: 80%;
-            bottom: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 30px 10px;
+            width: 700px;
+            padding: $spacing-unit $spcaing-unit/2;
+            bottom: 30%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 1;
 
+            .dark-bg {
+                height: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                width: 100%;
+                background: rgba(0,0,0,0.5);
+                z-index: -1;
+            }
 
             p {
                 font-weight: 300;
+            }
+
+            h2, h3, p {
+                width: auto;
             }
         }
     }

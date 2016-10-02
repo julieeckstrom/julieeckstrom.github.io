@@ -35,24 +35,24 @@ h1 {
 h2 { 
     font-size: 2em;
     font-weight: 700;
-    margin-top: 3em;
+    margin-top: $spacing-unit;
     color: #3a3a3a;
 }
 
 h3 { 
     font-size: 1.2em; 
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: $spacing-unit/2;
     text-transform: uppercase;
     font-weight: 400;
 
     span {
-        margin: 0 7px;
+        margin: 0 $spacing-unit/3;
     }
 }
 
-h1, h2, p, ul, ol, figure {
-    margin-bottom: 18px;
+h1, h2, p, ul, ol {
+    margin-bottom: $spacing-unit/3;
 }
 
 p, ul, ol { 
@@ -60,9 +60,14 @@ p, ul, ol {
     line-height: 30px;
 }
 
+figure {
+    margin: $spacing-unit*2 0;
+}
+
 figcaption {
     font-size: 1.5em;
     font-weight: 700;
+    margin-top: $spacing-unit/3;
 }
 
 .on-black {
