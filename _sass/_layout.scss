@@ -222,94 +222,49 @@
     font-size: 20px;
 }
 
-.post-list {
-    margin-left: 0;
-    list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    color: $medium-grey;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($large) {
-        font-size: 36px;
-    }
-}
+/* PROJECT */
 
 
-/**
-* Project page
-*/
+/* Project grid */
 
-
-/** 
-* Project grid
-*/
-
-.row.cards {
-    @media (min-width: $medium) {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.card {
-    position: relative;
-    margin-bottom: $spacing-unit;
-
-    @media (min-width: $medium) {
-        margin-bottom: 0em;
-    }
-}
-
-.card-image {
-    height: 600px;
-    width: 100%;
-    position: relative;
+.project-tile {
+    height: 700px;
+    text-align: center;
     overflow: hidden;
 
-    &:after {
-        content: '\A';
-        position: absolute;
-        width: 100%; height:100%;
-        top:0; left:0;
-        background:rgba(0,0,0,0.3);
-     }
+    .rule {
+        border-top: 1px solid $light-grey;
+        width: 90%;
+    }
+
+    .project-image {
+        
+    }
 }
 
-.card-image img {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-}
+.project-content {
 
-.card-content {
-    position: absolute;
-    bottom: 10%;
-    padding: $spacing-unit;
-    color: $white;
+    a {
+        border-bottom: 1px solid $accent-color;
+
+        &:hover {
+            border-bottom: 1px solid $accent-dark;
+        }
+    }
+
+    h2, h3, p, figcaption {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include media-query($medium) {
+            width: 100%;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+
 }

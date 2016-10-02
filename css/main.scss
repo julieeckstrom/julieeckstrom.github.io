@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 @import "type.css";
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i|Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
 
 // Text
 $base-font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -11,7 +11,7 @@ $base-font-size:   62.5%;
 $base-font-weight: 400;
 $base-line-height: 2.4em;
 
-$header-font-family: "Slabo 27px", Helvetica, Arial, sans-serif;
+$header-font-family: "Roboto", Helvetica, Arial, sans-serif;
 
 // Colors
 $background-color:	#fdfdfd;
@@ -62,8 +62,8 @@ $largest:          1200px;
         "base",
         "layout",
         "syntax-highlighting", 
-        "home",
         "projects",
+        "text"
         "construction"
         
 ;
