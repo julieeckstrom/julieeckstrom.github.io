@@ -1,31 +1,37 @@
-{% assign currentNumber = {{ include.param }} %}
+{% assign currentNumber = include.order %}
+
 {% if currentNumber == site.projects.size %}
 	{% assign next = 1 %}
 {% else %}
-	{% assign next = projectNumber + 1 %}
+	{% assign next = currentNumber | plus:1 %}
 {% endif %}
 
+
 {% if currentNumber == 1 %}
-	{% assign previous = sites.project.size %}
+	{% assign previous = 7 %}
 {% else %}
-	{% assign previous = projectNumber - 1 %}
+	{% assign previous = currentNumber | minus:1 %}
 {% endif %}
 
 
 {% assign next_project = site.projects | where:"order", next %}
 {% assign previous_project = site.projects | where:"order", previous %}
 
-{% assign close_projects = previous_project, next_project %}
+{% assign close_projects = previous_project,next_project %}
+{% assign close_projects = close_projects | push:next_project[0] %}
+
 
 {% for project in close_projects %}
-<div class="row cards">
-	<div class="one-half column card">
-		<div class="card-image"><img src="{{ project.images[0].url }}" title="{{ project.images[0].title }}" alt="{{ project.images[0].alt }}"></div>
-		<div class="card-content">
-			<h2 class="first">{{ project.title }}</h2>
-			<p>{{ project.description }}</p>
-			<a class="project-link button primary" href="{{ project.url | prepend: site.baseurl }}">View Project</a>
-		</div>
+<a href="{{ project.url | prepend: site.baseurl }}">
+<div class="half project-tile">
+	<div class="project-image"><img src="{{ project.images[0].url }}" title="{{ project.images[0].title }}" alt="{{ project.images[0].alt }}"></div>
+	<div class="project-overlay"></div>
+	<div class="project-info">
+		<h3><span>{{ project.organization }}</span><span>{{ project.year }}</span></h3>
+		<div class="rule"></div>
+		<div class="display">{{ project.title }}</div>
+		<div class="project-link button primary">View Project</div>
 	</div>
 </div>
+</a>
 {% endfor %}

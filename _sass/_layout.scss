@@ -236,6 +236,13 @@
     cursor: pointer;
     border-top: 1px solid $dark-grey;
 
+    &.half {
+        width: 49%;
+        height: 400px;
+        display: inline-block;
+        border-top: none;
+    }
+
     &:hover {
         .project-overlay {
             background: rgba(0,0,0,0.4);
@@ -311,8 +318,8 @@
             position: absolute;
             text-align: center;
             width: 700px;
-            padding: $spacing-unit $spcaing-unit/2;
-            bottom: 30%;
+            padding: $spacing-unit $spacing-unit/2;
+            bottom: 25%;
             left: 0;
             right: 0;
             margin: auto;
