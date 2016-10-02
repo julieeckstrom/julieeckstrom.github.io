@@ -11,6 +11,7 @@ images:
  - url: /assets/img/hri-form/hero.JPG
    title: A foam model moving down an aisle.
    alt: A foam model moving down an aisle of a retail store.
+ - url: /assets/img/hri-form/hero-blur.jpg
 ---
 
 <h2 class="first">Challenge</h2>

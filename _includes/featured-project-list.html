@@ -1,16 +1,13 @@
 {% assign sorted_projects = site.projects | sort:"order" %}
 
 {% for project in sorted_projects %}
-<a href="{{ project.url | prepend: site.baseurl }}">
 <div class="project-tile">
 	<div class="project-image"><img src="{{ project.images[0].url }}" title="{{ project.images[0].title }}" alt="{{ project.images[0].alt }}"></div>
-	<div class="project-overlay"></div>
-	<div class="project-info">
-		<h3><span>{{ project.organization }}</span><span>{{ project.year }}</span></h3>
+	<div class="project-content">
+		<h3>{{ project.organization }}{{ project.year }}</h3>
 		<div class="rule"></div>
-		<div class="display">{{ project.title }}</div>
-		<div class="project-link button primary">View Project</div>
+		<p>{{ project.title }}</p>
+		<a class="project-link button primary" href="{{ project.url | prepend: site.baseurl }}">View Project</a>
 	</div>
 </div>
-</a>
 {% endfor %}

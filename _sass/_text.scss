@@ -2,7 +2,7 @@
 /*    TEXT    */
 /**************/
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font: $base-font-weight #{$base-font-size} $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -22,35 +22,42 @@ h1, h2, h3 {
 }
 
 .display {
-    font-size: 5em;
+    font-size: 4em;
+    color: $white;
 }
 
 h1 { 
-    font-size: 3.4em;
+    font-size: 2.8em;
     font-family: $header-font-family;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h2 { 
-    font-size: 2.4em;
-    line-height: 2.8em;
+    font-size: 2em;
     font-weight: 700;
-    margin-top: 1.5em;
+    margin-top: 3em;
+    color: #3a3a3a;
 }
 
 h3 { 
-    font-size: 1.5em; 
+    font-size: 1.2em; 
     margin-top: 0em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     text-transform: uppercase;
+    font-weight: 400;
+
+    span {
+        margin: 0 7px;
+    }
 }
 
 h1, h2, p, ul, ol, figure {
-    margin-bottom: 1.5em;
+    margin-bottom: 18px;
 }
 
 p, ul, ol { 
-    font-size: 2em;
+    font-size: 1.8em;
+    line-height: 30px;
 }
 
 figcaption {
@@ -58,7 +65,7 @@ figcaption {
     font-weight: 700;
 }
 
-.on-black h2, .on-black p, .on-black h3 {
+.on-black {
     color: $white;
 }
 
