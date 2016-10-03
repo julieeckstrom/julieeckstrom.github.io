@@ -4,9 +4,8 @@ title: Boosting confidence in women to lead active lives
 description: A website with products intended to motivate and support women who want to lead active, healthy lifestyles.
 organization: Dick's Sporting Goods
 year: 2015
-methods: Information Gathering, Wireframing, Visual Design
-tools: Balsamiq Mockups, Adobe Illustrator
 order: 6
+featured: no
 images: 
  - url: /assets/img/calia/hero.png
    title: The CALIA studio website.

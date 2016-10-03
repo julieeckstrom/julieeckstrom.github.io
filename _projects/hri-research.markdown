@@ -4,9 +4,8 @@ title:  Understanding how shoppers in United States feel about robots
 description: Research within retail stores to reveal a baseline for how people feel about a robot being within a retail environment. This research then created new attributes and a persona through which to design the next generation of robot.
 organization: Bossa Nova Robotics
 year: 2015
-methods: ethnographic research, analysis and synthesis of data
-tools: 
 order: 1
+featured: yes
 images: 
  - url: /assets/img/hri-research/hero.JPG
    title: Gaeta+ in a retail store

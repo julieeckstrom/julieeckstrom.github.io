@@ -4,9 +4,8 @@ title:  Helping people stay informed about family members in surgery
 description: Creating an app that supports family members waiting for loved ones in surgery, and keeps them up to date about any changes.
 organization: CMU / Teletracking
 year: 2014
-methods: Surveys, Diary study, Card sorts, Ethnographic observation, Affinity diagramming
-tools: Pencil/Paper, Paper prototyping, Balsamiq Mockups, Adobe Illustrator, Adobe Photoshop
 order: 5
+featured: no
 images: 
  - url: /assets/img/touchpoint/hero.png
    title: The touchpoint app lying amongst the artifacts of life

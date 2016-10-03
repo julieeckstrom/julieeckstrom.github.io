@@ -1,12 +1,15 @@
 ---
-layout: default
-browser-title: Home
+layout: without-bleed
+browser-title:
 title: Home
 permalink: /home/
 order: 
 ---
 
-I discover, define, organize, and refine life.
+<section class="home-intro">
+	discovering, organizing, refining, and designing life.
+</section>
 
-
-{% include featured-project-list.html %}
+<section class="featured-projects">
+	{% include featured-project-list.html %}
+</section>

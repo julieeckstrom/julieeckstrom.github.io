@@ -7,6 +7,7 @@ year: 2015 - ongoing
 methods:
 tools:
 order: 3
+featured: no
 images: 
  - url: /assets/img/hri-form/hero.JPG
    title: A foam model moving down an aisle.

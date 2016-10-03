@@ -4,9 +4,8 @@ title: Supporting atheltes with the right gear on their journey
 description: Refreshing the Dick's Sporting Goods mobile website to make it easier for athletes to get the gear they need.
 organization: Dick's Sporting Goods
 year: 2015
-methods: Wireframing, Visual Design, User Testing, Card Sort, Multivariate Testing
-tools: Balsamiq Mockups, Adobe Photoshop, HTML/CSS/JS
 order: 7
+featured: no
 images: 
  - url: /assets/img/dsg/hero.png
    title: The Dick's Sporting Goods mobile and tablet sites.
