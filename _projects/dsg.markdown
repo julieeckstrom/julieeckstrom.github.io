@@ -4,12 +4,13 @@ title: Supporting atheltes with the right gear on their journey
 description: Refreshing the Dick's Sporting Goods mobile website to make it easier for athletes to get the gear they need.
 organization: Dick's Sporting Goods
 year: 2015
-order: 7
+order: 6
 featured: no
 images: 
  - url: /assets/img/dsg/hero.png
    title: The Dick's Sporting Goods mobile and tablet sites.
    alt: An image of the Dick's Sporting Goods mobile and tablet sites.
+ - url: /assets/img/dsg/hero-blur.png
 ---
 
 ## Challenge

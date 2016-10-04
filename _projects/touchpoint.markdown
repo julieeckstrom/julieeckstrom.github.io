@@ -10,6 +10,7 @@ images:
  - url: /assets/img/touchpoint/hero.png
    title: The touchpoint app lying amongst the artifacts of life
    alt: A phone lying on a table shows the Touchpoint app that's updated with Ben's surgery progress.
+ - url: /assets/img/touchpoint/hero-blur.png
 
 ---
 

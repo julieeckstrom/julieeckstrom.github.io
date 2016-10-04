@@ -1,15 +1,16 @@
 ---
 layout: project
-title:  Understanding how shoppers in United States feel about robots
+title:  Discovering how shoppers in the United States feel about robots
 description: Research within retail stores to reveal a baseline for how people feel about a robot being within a retail environment. This research then created new attributes and a persona through which to design the next generation of robot.
 organization: Bossa Nova Robotics
 year: 2015
 order: 1
 featured: yes
 images: 
- - url: /assets/img/hri-research/hero.JPG
+ - url: /assets/img/hri-research/hero.png
    title: Gaeta+ in a retail store
    alt: Gaeta+ standing amongst produce in a retail store
+ - url: /assets/img/hri-research/hero-blur.png
 ---
 
 <h2 class="first">Challenge</h2>

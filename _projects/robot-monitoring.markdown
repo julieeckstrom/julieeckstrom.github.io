@@ -4,12 +4,13 @@ title: Helping engineers monitor their robot fleet
 description: 
 organization: Bossa Nova Robotics
 year: 2016 - ongoing
-order: 4
+order: 3
 featured: yes
 images: 
- - url: /assets/img/remote-monitoring/hero.JPG
+ - url: /assets/img/remote-monitoring/hero.png
    title: Mockups of the remote monitoring interface.
    alt: A process image of the Sketch file for remote monitoring.
+ - url: /assets/img/remote-monitoring/hero-blur.png
 ---
 
 ## Challenge

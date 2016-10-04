@@ -4,12 +4,13 @@ title:  Helping people understand a robot's thoughts
 description: Discovering the information people need to feel safe around a robot, and designing lighting patterns to communicate that information.
 organization: Bossa Nova Robotics
 year: 2015 - ongoing
-order: 2
+order: 4
 featured: no
 images: 
- - url: /assets/img/hri-communication/hero.JPG
+ - url: /assets/img/hri-communication/hero.png
    title: Gaeta+ with attached LEDs
    alt: The robot moving through an aisle with a light pattern playing.
+ - url: /assets/img/hri-communication/hero-blur.png
 ---
 
 <h2 class="first">Challenge</h2>

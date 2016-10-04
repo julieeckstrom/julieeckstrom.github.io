@@ -6,7 +6,7 @@ organization: Bossa Nova Robotics
 year: 2015 - ongoing
 methods:
 tools:
-order: 3
+order: 2
 featured: no
 images: 
  - url: /assets/img/hri-form/hero.JPG

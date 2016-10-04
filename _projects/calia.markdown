@@ -4,12 +4,13 @@ title: Boosting confidence in women to lead active lives
 description: A website with products intended to motivate and support women who want to lead active, healthy lifestyles.
 organization: Dick's Sporting Goods
 year: 2015
-order: 6
+order: 7
 featured: no
 images: 
- - url: /assets/img/calia/hero.png
+ - url: /assets/img/calia/hero.jpg
    title: The CALIA studio website.
    alt: An image of the CALIA studio website.
+ - url: /assets/img/calia/hero-blur.png
 ---
 
 ## Challenege
