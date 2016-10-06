@@ -30,11 +30,17 @@ Research within a big box retail chain in middle America is difficult to quantif
 
 We went through four iterations of data collection methods, beginning with a detailed survey of shopper's glances and minute facial expressions when encountering the robot, and ending with something much simpler: the single question, "How does it make you feel?" Through the process we realized that strangers are not afraid to be being honest, and most of the information we needed was in the answer to that single question. We could also collect much more data by asking a single question and handle the complex interaction of multiple large families moving and talking around the robot.
 
+<figure><img src="/assets/img/hri-research/image-1.JPG"><figcaption>A whiteboarding session planning out the first iteration of the research method.</figcaption></figure>
+
 We discerned how people felt about our robot through data collected across 3 different brands, in 4 different stores, in 2 states, and 223 human-robot interactions. We put each quote on an individual sticky note and created an affinity diagram, allowing the themes of feelings and concerns to bubble up. Specifics of what we discovered cannot be shared, but our discovery did allow us to create a persona for with our next generation of robot that hopefully meets specific attributes perceived by shoppers. Among other things, the robot needs to be predictable and mindful, but also appear busy.
+
+<figure><img src="/assets/img/hri-research/image-2.JPG"><figcaption>A section of the affinity diagram made up of all the data collected in stores.</figcaption></figure>
 
 
 ## Applying a persona to a robot
 
 Designing a human-robot interaction experience can be difficult, especially when design is new to an organization. There are so many variables that affect how someone perceives a robot. Not only is there how a robot looks, but there's also how that robot moves and communicates its intentions and feelings to people around it. All of these groupings of characteristics are created by different teams within a company, and those teams have their own individual goals. So I talk to mechanical and electrical engineering about design opportunities in how the robot looks, and I talk to the robot software team about triggers than can be developed that allow a robot to respond to things within its environment. I also talk with business about the impact that politeness can have on the speed of data collection.
+
+<figure><img src="/assets/img/hri-research/image-3.JPG"><figcaption>A whiteboarding session trying to figure out how to organize future human-robot interaction work.</figcaption></figure>
 
 I created a method that would allow high-level design goals to be applied throughout the work of all teams, while still remaining true to the goal design persona. Human-robot interaction can be broken down into three areas to focus work: physicality, behavior, and explicit communication. More information on these specific areas can be found in other projects on my site.

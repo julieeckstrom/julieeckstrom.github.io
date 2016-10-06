@@ -67,7 +67,8 @@ p, ul, ol {
 }
 
 figure {
-    margin: $spacing-unit*2 0;
+    margin: $spacing-unit*2 auto;
+    max-width: 900px;
 }
 
 figcaption {
