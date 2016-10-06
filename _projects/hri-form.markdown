@@ -42,6 +42,6 @@ We worked with an industrial design firm that created a new shape to meet all of
 
 People also had behaviors towards the robot that suggested they found it cute. One store employee even patted the top of the small form while saying, "Hey, buddy," with an endearing tone. Kids also loved it. They ran up and gave it bear hugs, and they stood in front of it trying to play.
 
-<figure><img src="/assets/img/hri-form/image-2.JPG"><figcaption>A kid playing with the robot model.</figcaption></figure>
+<figure><img class="image seven columns" src="/assets/img/hri-form/image-2.JPG"><figcaption class="image seven columns">A kid playing with the robot model.</figcaption></figure>
 
 Through these interactions we realized that we may want to increase the height of the form perceived by shoppers as the actual robot. Despite how cute the interactions with the kids are, we want to avoid having the robot sit at at exactly kid height because it could interfere with the robot's data collection. Testing also revealed some other negative connotations, so we are still working with another industrial design firm to iterate on the shape. This is an ongoing project, and the new form will be released mid-2017. Once we have a shape, we will be integrating <a href="../projects/hri-communication.html">communication patterns</a> and new behaviors.
