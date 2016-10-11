@@ -31,7 +31,7 @@ We went through 8 rounds of testing visual indicators for different types of inf
 
 We then tested a screen with eyes. I mounted an iPad on the robot and had it mirror my laptop. I programmed a pair of eyes to follow my mouse, and the eyes blinked when I clicked on the screen to simulate the robot looking and blinking at people. This also didn't work. There are many distractors in a retail environment, and shoppers did not notice the movement on the screen. They missed the shift of the eyes in their direction, and they didn't see the blink that was acknowledging their presence. 
 
-<figure><img class="image nine columns" src="/assets/img/hri-communication/image-4.JPG"><figcaption class="image nine columns">Quickly iterating on lighting patterns in the office.</figcaption></figure>
+<figure><img class="image nine columns" src="/assets/img/hri-communication/image-4.jpg"><figcaption class="image nine columns">Quickly iterating on lighting patterns in the office.</figcaption></figure>
 
 We then tested lighting patterns in different configurations. I programmed the lighting patterns in Processing, and then controlled the Processing scripts from my laptop, which wirelessly connected to a Wi-Fi dongle attached to a Raspberry Pi powering a Fadecandy driver. The Fadecandy used the patterns to light up individually addressable Neopixel LEDs. I attached these LEDs to the robot and changed the lighting pattern as the robot moved around. This setup allowed us to test a variety of lighting patterns quickly.
 
