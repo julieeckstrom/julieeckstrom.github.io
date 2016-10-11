@@ -15,7 +15,7 @@ images:
 
 <h2 class="first">Challenge</h2>
 
-Discover visual indicators that make people comfortable and safe around a robot. Bossa Nova uses a robot to collect data in an environment that anyone can be in: a big box retail store. From <a href="">HRI research</a> we knew the robot needed to communicate a few pieces of information to make it appear predictable and mindful. This work describes the search for those pieces of information and patterns. 
+Discover visual indicators that make people comfortable and safe around a robot. Bossa Nova uses a robot to collect data in an environment that anyone can be in: a big box retail store. From <a href="../projects/hri-research.html">HRI research</a> we knew the robot needed to communicate a few pieces of information to make it appear predictable and mindful. This work describes the search for those pieces of information and patterns. 
 
 ## Natural non-verbal communication
 
@@ -39,8 +39,8 @@ We then tested lighting patterns in different configurations. I programmed the l
 
 We tested these visual indicators in the same way we collected our <a href="">original research data</a>. We asked shoppers a few simple questions about whether they felt the robot knew they were there and what they thought the light patterns meant. We also watched people move around the robot to see whether their movements changed with different light patterns. 
 
-<figure><img class="image six columns" src="/assets/img/hri-communication/image-2.JPG"><img class="image nine columns" src="/assets/img/hri-communication/image-3.JPG"><figcaption class="image nine columns">Testing a lighting configuration on the robot.</figcaption></figure>
+<figure><img class="image six columns" src="/assets/img/hri-communication/image-2.jpg"><img class="image nine columns" src="/assets/img/hri-communication/image-3.png"><figcaption class="image nine columns">Testing a lighting configuration on the robot.</figcaption></figure>
 
 Specifics cannot be shared, but overall we tested 10 lighting patterns in three combinations. We also tested sounds the robot could make in response to different triggers. We found a specific sound that calmed shoppers when near the robot, making them feel as though the robot was aware of their presence. More on this later.
 
-As the <a href="">form</a> of the next robot is developed in late 2016, I will continue this project to see how the new shape affects shoppers' interpretation of the lighting patterns.
+As the <a href="../projects/hri-research.html">form</a> of the next robot is developed in late 2016, I will continue this project to see how the new shape affects shoppers' interpretation of the lighting patterns.
