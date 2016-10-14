@@ -1,6 +1,6 @@
 ---
 layout: without-bleed
-browser-title: More Information about 
+browser-title: About | 
 title: About + Contact
 permalink: /about+contact/
 order: 3

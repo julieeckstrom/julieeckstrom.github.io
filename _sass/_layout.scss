@@ -153,6 +153,11 @@
     padding: $spacing-unit*2 $spacing-unit $spacing-unit/2 $spacing-unit;
     background: $dark-grey;
 
+    ul {
+        list-style-type: none;
+        margin: auto;
+    }
+
     @include media-query($small) {
         padding: $spacing-unit $spacing-unit/3;
 
@@ -199,7 +204,6 @@
 
         .page-link {
             margin: 0 20px;
-            display: block;
             font-size: 16px;
             font-weight: 400;
         }
@@ -217,6 +221,41 @@
 
 .page-heading {
     font-size: 20px;
+}
+
+
+/* HOMEPAGE */
+.home-section {
+
+    &#about {
+        background: $light-grey;
+        text-align: center;
+        padding: $spacing-unit*2 $spacing-unit;
+
+        ul {
+            margin: auto;
+            list-style: none;
+            height: 150px;
+            li {
+                display: inline-block;
+                width: 40%;
+                &:before {
+                    content: "\00BB";
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    &#image {
+        height: 300px;
+        overflow: hidden;
+        img {
+            width: 105%;
+            margin-top: -30px;
+            margin-left: -20px;
+        }
+    }
 }
 
 

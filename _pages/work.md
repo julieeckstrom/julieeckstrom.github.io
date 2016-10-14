@@ -1,6 +1,6 @@
 ---
 layout: with-bleed
-browser-title: Work of
+browser-title: Work | 
 title: Work
 permalink: /work/
 order: 1

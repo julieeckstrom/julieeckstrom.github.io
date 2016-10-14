@@ -1,20 +1,22 @@
 ---
 layout: without-bleed
-browser-title:
+browser-title: Design | 
 title: Home
 permalink: /home/
 order: 
 ---
 
-<section class="home-intro">
-	discovering, organizing, refining, and designing life.
+<section class="home-section">
+	<div class="display-1">discovering, organizing, refining, and designing life.</div>
+</section>
+<section class="home-section" id="image">
+	<img src="/assets/img/home/lars-lerin.jpg">
 </section>
 
-<section class="featured-projects">
-	{% include featured-project-list.html %}
-</section>
-
-<section class="home-about">
+<section class="home-section" id="about">
+	<h3>What I Do</h3>
+	<div class="display">Design with empathy and organization</div>
+	<p>Feel the deep needs of all beings. Have an extreme eye for patterns to sensemake through structuring. Talk about the work through the lense of how it makes living better. Focus on positivity, laughter, and authenticity to spread joy throughout life, by design.</p>
 	<ul>
 		<li>Human-Robot Interaction</li>
 		<li>Interaction Design</li>
@@ -25,4 +27,8 @@ order:
 		<li>Information Architecture</li>
 		<li>Project Management</li>
 	</ul>
+</section>
+
+<section class="home featured-projects">
+	{% include featured-project-list.html %}
 </section>
