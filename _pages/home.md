@@ -9,8 +9,8 @@ order:
 <section class="home-section">
 	<div class="display-1">discovering, organizing, refining, and designing life.</div>
 </section>
+
 <section class="home-section" id="image">
-	<img src="/assets/img/home/lars-lerin.jpg">
 </section>
 
 <section class="home-section" id="about">
