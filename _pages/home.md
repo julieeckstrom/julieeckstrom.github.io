@@ -15,8 +15,8 @@ order:
 
 <section class="home-section" id="about">
 	<h3>What I Do</h3>
-	<div class="display">Design with empathy and organization</div>
-	<p>Feel the deep needs of all beings. Have an extreme eye for patterns to sensemake through structuring. Talk about the work through the lense of how it makes living better. Focus on positivity, laughter, and authenticity to spread joy throughout life, by design.</p>
+	<div class="display-2 dark">Design with empathy and organization</div>
+	<p class="blurb">Feel the deep needs of all beings. Have an extreme eye for patterns to sensemake through structuring. Talk about the work through the lense of how it makes living better. Focus on positivity, laughter, and authenticity to spread joy throughout life, by design.</p>
 	<ul>
 		<li>Human-Robot Interaction</li>
 		<li>Interaction Design</li>
@@ -29,6 +29,8 @@ order:
 	</ul>
 </section>
 
-<section class="home featured-projects">
+<section class="home-section" id="featured-projects">
+	<h3>Featured Work</h3>
 	{% include featured-project-list.html %}
+	<div class="button primary">View all select work</div>
 </section>

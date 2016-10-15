@@ -1,4 +1,4 @@
-{% assign featured_projects = site.projects | where:"order", "2" %}
+{% assign featured_projects = site.projects | where:"featured", "true" %}
 
 {% for project in featured_projects %}
 	{% include individual-project.html project=project %}

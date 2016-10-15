@@ -23,6 +23,12 @@
             .page-link {
                 color: $background-color;
             }
+
+            .menu-icon {
+                svg path {
+                    fill: $white;
+                }
+            }
         }
 
         .site-title {
@@ -44,11 +50,6 @@
         &:hover {
             background-position: 0 -81px;
         }
-
-        @include media-query($small) {
-            line-height: 25px;
-            height: 40px;
-        }
     }
 
     .site-nav {
@@ -61,7 +62,8 @@
 
         .page-link {
             color: $text-color;
-            font-size: 1.6em;
+            font-family: $header-font-family;
+            font-size: 1.4em;
             text-transform: uppercase;
             line-height: $base-line-height;
             padding-bottom: 0.5em;
@@ -97,13 +99,19 @@
                 display: none;
             }
 
+            .site-title {
+                background-size: 180px;
+                background-position: 0 -132px;
+                height: 70px;
+            }
+
             .menu-icon, .close-icon.visible {
                 display: block;
                 float: right;
                 width: 40px;
                 height: 30px;
                 line-height: 0;
-                padding-top: 10px;
+                padding-top: 20px;
                 text-align: center;
 
                 > svg {
@@ -111,19 +119,15 @@
                     height: 15px;
 
                     path {
-                        fill: $dark-grey;
+                        fill: $black;
                     }
-                }
-
-                &.invisible {
-                    display: none;
                 }
             }
 
             .trigger {
                 clear: both;
                 display: none;
-                background: #ffffff;
+                background: $black;
 
                 &.open {
                     display: block;
@@ -134,11 +138,16 @@
             .page-link {
                 display: block;
                 padding: 5px 10px;
+                color: $white;
 
                 &:not(:last-child) {
                     margin-right: 0;
                 }
                 margin-left: 20px;
+
+                &:hover {
+                    border-bottom: 0;
+                }
             }
         }
     }
@@ -149,13 +158,20 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $light-grey;
-    padding: $spacing-unit*2 $spacing-unit $spacing-unit/2 $spacing-unit;
-    background: $dark-grey;
+    padding: $spacing-unit*2 $spacing-unit;
+    background: $black;
+    color: $almost-white;
+    font-family: $header-font-family;
+    text-transform: uppercase;
 
     ul {
         list-style-type: none;
         margin: auto;
+
+        li {
+            font-size: 12px;
+            line-height: 18px;
+        }
     }
 
     @include media-query($small) {
@@ -183,24 +199,20 @@
     .site-title {
         width: 190px;
         height: 70px;
-        display: inline-block;
+        display: block;
+        margin: 0 auto;
         vertical-align: top;
         background-image: url("/assets/img/logo.svg");
         background-size: 190px;
-        background-position: 0 -141px;
+        background-position: 0 -1px;
         background-repeat: no-repeat;
         cursor: pointer;
     }
 
-    .site-title, .footer-nav {
-        display: inline-block;
-        vertical-align: top;
-    }
-
     .footer-nav {
-        font-size: 1.2em;
         text-transform: uppercase;
         margin-left: 0px;
+        font-size: 1.2em;
 
         .page-link {
             margin: 0 20px;
@@ -227,12 +239,37 @@
 /* HOMEPAGE */
 .home-section {
 
+    &#featured-projects, &#about {
+        padding: $spacing-unit*2 $spacing-unit;
+        text-align: center;
+    }
+
+    &#featured-projects {
+        background: $dark-grey;
+        text-align: center;
+
+        .project-tile {
+            width: 33%;
+            display: inline-block;
+            height: 200px;
+            margin-bottom: $spacing-unit;
+
+            .display {
+                font-size: 2em;
+            }
+
+            .button, .rule, h3 {
+                display: none;
+            }
+        }
+    }
+
     &#about {
         background: $light-grey;
-        text-align: center;
-        padding: $spacing-unit*2 $spacing-unit;
 
         ul {
+            font-size: 1.5em;
+            line-height: 1.8em;
             margin: auto;
             list-style: none;
             height: 150px;
@@ -270,7 +307,10 @@
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    border-top: 1px solid $black;
+
+    @include media-query($medium) {
+        height: 400px;
+    }
 
     &.half {
         width: 49%;
@@ -290,20 +330,16 @@
         }
     }
 
-    .rule {
-        border-top: 1px solid $accent-color;
-        margin: 1.5em auto;
-        width: 30%;
-    }
-
-    .project-image img {
-        width: 100%;
+    .project-image {
+        background-size: cover;
+        background-position: center;
+        height: 100%;
         -webkit-filter: blur(2px);
         -moz-filter: blur(2px);
         -o-filter: blur(2px);
         -ms-filter: blur(2px);
         filter: blur(2px);
-        transform: scale(1.01)
+        transform: scale(1.01);
     }
 
     .project-overlay {
@@ -327,9 +363,8 @@
     }
 
     h3 {
-
         span {
-            color: $white;
+            color: $almost-white;
         }
     }
 
@@ -345,12 +380,25 @@
         overflow: hidden;
 
         @include media-query($medium) {
-            height: 600px;
+            height: 400px;
+        }
+
+        @include media-query($small) {
+            overflow: visible;
+            height: auto;
         }
 
         .hero-image {
             height: 100%;
             background-size: cover;
+
+            @include media-query($small) {
+                height: 300px;
+            }
+
+            @include media-query($smallest) {
+                height: 200px;
+            }
         }
 
         .project-header {
@@ -367,6 +415,13 @@
             @include media-query($medium) {
                 width: auto;
                 margin: 0 10px;
+                bottom: 45%;
+            }
+
+            @include media-query($small) {
+                position: relative;
+                margin: 0;
+                bottom: auto;
             }
 
             .dark-bg {
@@ -375,15 +430,18 @@
                 left: 0;
                 position: absolute;
                 width: 100%;
-                background: rgba(0,0,0,0.5);
+                background: rgba(0,0,0,0.7);
                 z-index: -1;
             }
 
             p {
                 font-weight: 300;
+                font-size: 1.5em;
+                line-height: 1.8em;
+                width: 80%;
             }
 
-            h2, h3, p {
+            h2, h3 {
                 width: auto;
             }
         }
@@ -413,6 +471,10 @@
 
     .next-project {
         margin-top: $spacing-unit*2;
+
+        a {
+            border-bottom: 0;
+        }
 
         .project-tile {
             width: 49.75%;

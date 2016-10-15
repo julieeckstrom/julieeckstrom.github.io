@@ -4,8 +4,6 @@ title: Creating a robot that elicits love
 description: Designing a robot form that appears friendly, small, and approachable without inviting interaction. 
 organization: Bossa Nova Robotics
 year: 2015 - ongoing
-methods:
-tools:
 order: 2
 featured: no
 images: 
