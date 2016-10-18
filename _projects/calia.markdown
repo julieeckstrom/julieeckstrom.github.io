@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Boosting confidence in women to lead active lives
-description: A website with products intended to motivate and support women who want to lead active, healthy lifestyles.
+description: The CALIA by Carrie Underwood brand needed an eCommerce website before it launched in March of 2015. The product line was simple, and needed a minimal aesthetic to showcase it.
 organization: Dick's Sporting Goods
 year: 2015
 order: 7
