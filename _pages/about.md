@@ -12,10 +12,13 @@ order: 3
 	<div class="julie"></div>
 	<ul>
 		<li>Julie Eckstrom</li>
-		<li>julie.eckstrom@gmail.com</li>
-		<li>843.263.9243</li>
-		<li>Linked In</li>
+		<li><div class="icon"><img src="../assets/icons/email.svg"></div><span>julie.eckstrom@gmail.com</span></li>
+		<li><div class="icon"><img src="../assets/icons/android-call.svg"></div><span>843.263.9243</span></li>
+		<a target="_blank" href="https://www.linkedin.com/in/julieeckstrom"><li><div class="icon"><img src="../assets/icons/social-linkedin.svg"></div><span>Linked In</span></li></a>
 	</ul>
+
+</div>
+
 <h1>About Julie</h1>
 
 <p>Julie is a designer involved in design research, interaction design, service design, experience design, and information design. At the moment she's working at Bossa Nova Robotics in Pittsburgh, PA. Julie is a strong believer in using design thinking to do good, and she believes that technology can create positive change in the world when many perspectives are involved in building it. She is interested how design thinking can help make technology fields more accessible to those who may be intimidated by traditional information structures or masculine language and design.</p>
@@ -26,7 +29,7 @@ order: 3
 
 <p>Julie received her master's degree in Human-Computer Interaction, and her bachelor's degree in Information Systems and Human-Computer Interaction from Carnegie Mellon University in 2014.</p>
 
-<h3>Call me when</h3>
+<h2>Call me when</h2>
 <ul>
 	<li>You need help on a new process</li>
 	<li>You have a robot that needs an integrated, wholistic design</li>

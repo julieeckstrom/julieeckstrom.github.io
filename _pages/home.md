@@ -11,6 +11,7 @@ order:
 </section>
 
 <section class="home-section" id="image">
+	<p>"Bibliotek" by Lars Lerin</p>
 </section>
 
 <section class="home-section" id="about">
@@ -31,6 +32,8 @@ order:
 
 <section class="home-section" id="featured-projects">
 	<h3>Featured Work</h3>
-	{% include featured-project-list.html %}
-	<div class="button primary">View all select work</div>
+	<div class="project-sample">
+		{% include featured-project-list.html %}
+	</div>
+	<a href="/work"><div class="button primary">View all select work</div></a>
 </section>

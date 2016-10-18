@@ -12,21 +12,30 @@ p, ol, ul, figure, figcaption {
 
 .button.primary {
     border: 1px solid $white;
-    color: $white;
-    font-size: 1.2em;
-    text-transform: uppercase;
     padding: 1em 1em;
     display: inline-block;
-    font-weight: 400;
-    transition: 0.25s;
     cursor: pointer;
 
     &:hover {
         border: 1px solid $accent-color;
-        color: $accent-color;
+
+        a, a:visited {
+            color: $accent-color;
+        }
     }
 }
 
+.button.primary, .button.primary a {
+    color: $white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 0.25s;
+
+    &:hover {
+        color: $accent-color;
+    }
+}
 
 
 /**
