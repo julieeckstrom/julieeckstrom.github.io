@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Helping people stay informed about family members in surgery
-description: Creating an app that supports family members waiting for loved ones in surgery, and keeps them up to date about any changes.
+description: Family members oftentimes go through the experience of waiting on a loved one in surgery with little to no information to ground them. We created an app that helps those waiting by keeping them up-to-date on any surgery status changes and allowing them to feel the support of close friends and family.
 organization: CMU / Teletracking
 year: 2014
 order: 5

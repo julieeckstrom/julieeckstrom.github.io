@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Helping engineers monitor their robot fleet
-description: 
+title: Enabling engineers to monitor their robot fleet
+description: A fleet management system that focuses engineers' attention on the robots that need it, while being flexible enough to diagnose robot-specific bugs and discover fleet-wide trends.
 organization: Bossa Nova Robotics
 year: 2016 - ongoing
 order: 3

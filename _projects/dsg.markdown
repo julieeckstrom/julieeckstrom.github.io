@@ -15,10 +15,14 @@ images:
 
 ## Challenge
 
-Update the existing Dick's Sporting Goods mobile site to make it more refined and usable.
+The Dick's Sporting Goods mobile and tablet sites needed some updating when I started. While at Dick's, I took the existing mobile and tablet sites and updated the look of them. My goal for each one of the pages was to remove the visual clutter, construct a clear hierarchy, make everything appropriately sized for a mobile screen, and overall visual refinement. I was working within the existing style framework already established by the desktop site, and there were many instances where I had to make tradeoffs between usability and brand identity.
 
-## My Role
+<figure><img class="image scroll five columns" src="/assets/img/dsg/old-category.png"><img class="image scroll five columns" src="/assets/img/dsg/new-category.png"><figcaption>The old mobile category page (left) and the new mobile category page (right).</figcaption></figure>
 
-As the sole UX designer for the mobile and tablet sites, I suggest what needs to be done, create mockups, and turn them into requirements for third-party developers. Depending on the project, I'll conduct usability studies, card sorts, or tree tests, either with a mockup or a working prototype. My current ongoing project is to increase the legibility of the mobile site. Many of those changes will be launching soon.
+<figure><div class="one column"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/old-family.png"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/new-family.png"></div><div class="one column"></div><figcaption class="image nine columns">The old mobile family page (left) and the new mobile family page (right).</figcaption></figure>
 
-In addition to the websites, I'm a key player in defining the experience for a much needed upgrade to the iOS app. At this time, I am unable to share most of the work I've done. However, below are some examples of changes I've implemented. The images on the left are the mobile site's former look, and the images on the right incorporate my changes.
+<figure><div class="one column"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/old-pdp.png"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/new-pdp.png"></div><div class="one column"></div><figcaption class="image nine columns">The old mobile product display page (left) and the new mobile product display page (right).</figcaption></figure>
+
+My process for prototyping, designing, and communicating these changes was unusual due to the difficulty of making changes to an old code base. Something may not be possible given how the overall site is structured. Because of this, I would prototype using HTML/CSS on the existing site, and communicate changes with developers using my own code.
+
+Other projects on Dick's Sporting Goods eCommerce included design strategy for the iOS app, quantitative testing on all channels of eCommerce including in-store kiosks, and qualitative testing of new features for the mobile and tablet sites.

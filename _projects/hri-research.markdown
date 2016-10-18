@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  Discovering how shoppers in the United States feel about robots
-description: Research within retail stores to reveal a baseline for how people feel about a robot being within a retail environment. This research then created new attributes and a persona through which to design the next generation of robot.
+title:  Uncovering how shoppers feel about robots
+description: Research within retail stores in the United States revealed a baseline for how people feel about robots being within that environment. As it turns out, people can simultaneously be excited and fear being replaced. This research informed attributes and a persona to use in the design of the next generation of robot.
 organization: Bossa Nova Robotics
 year: 2015
 order: 1

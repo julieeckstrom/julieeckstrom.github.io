@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Creating a robot that elicits love
-description: Designing a robot form that appears friendly, small, and approachable without inviting interaction. 
+description: How do you make people protect a robot? By eliciting love through designed human-robot interaction. Our robot's form had to be perceived as friendly, small, and approachable, all within strict engineering contraints. We transformed a looming 6-foot-tall robot into a short and friendly robot, without making it appear interactive.
 organization: Bossa Nova Robotics
 year: 2015 - ongoing
 order: 2
@@ -20,6 +20,8 @@ Bossa Nova uses a robot to collect data in big box retail stores. Through <a hre
 ## Small wins
 
 Through <a href="../projects/hri-research.html">HRI research</a> we knew there were aspects of the form of Bossa Nova's robot that needed to change to gain acceptance from shoppers. In collaboration with industrial design and mechanical engineering, we designed a robot that shoppers will love.
+
+<figure><img src="/assets/img/hri-form/image-8.JPG"><figcaption>The back of the old generation of the Bossa Nova robot.</figcaption></figure>
 
 The previous generation of Bossa Nova's robot balanced on two wheels, much like a Segway. While this is a cool engineering feat, the sight makes shoppers uncomfortable—especially when the robot transitions from a balancing to non-balancing state by falling back onto casters. The robot appeared fragile, and its movements were jerky. Shoppers were uncertain about how to move around the robot because they were afraid they would knock it over. We don’t want our robot to negatively affect the shopping experience, and making customers uneasy was a negative. Fortunately, it was to the benefit of both engineering and design goals to have a statically stable robot, so we could make the next-generation robot non-balancing.
 

@@ -430,7 +430,7 @@
         overflow: hidden;
 
         @include media-query($medium) {
-            height: 400px;
+            height: 480px;
         }
 
         @include media-query($small) {
@@ -465,7 +465,7 @@
             @include media-query($medium) {
                 width: auto;
                 margin: 0 10px;
-                bottom: 45%;
+                bottom: 30%;
             }
 
             @include media-query($small) {
@@ -519,6 +519,13 @@
         width: 100%;
     }
 
+}
+
+figure .scroll {
+    height: 600px;
+    overflow-y: scroll;
+    display: inline-block;
+    border: 1px solid $light-grey;
 }
 
 .project-sample {
