@@ -29,12 +29,12 @@ order: 3
 
 <p>Julie received her master's degree in Human-Computer Interaction, and her bachelor's degree in Information Systems and Human-Computer Interaction from Carnegie Mellon University in 2014.</p>
 
-<h2>Call me when</h2>
+<!--<h2>Call me when</h2>
 <ul>
 	<li>You need help on a new process</li>
 	<li>You have a robot that needs an integrated, wholistic design</li>
 	<li>You're launching a new product or service</li>
 	<li>You want to understand your user</li>
 	<li>You're looking for someone to lead a team of designers</li>
-</ul>
+</ul>-->
 </section>
