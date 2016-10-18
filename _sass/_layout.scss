@@ -180,6 +180,11 @@
         .site-title {
             margin: 1em auto !important;
         }
+
+        .social {
+            text-align: center !important;
+            padding: 0 !important;
+        }
     }
 
     @include media-query($small) {
@@ -192,11 +197,6 @@
         p {
             margin-top: $spacing-unit;
             font-size: 14px !important;
-            text-align: center !important;
-        }
-
-        .left, .right {
-            float: none;
         }
     }
 
@@ -283,6 +283,13 @@
                 width: 45%;
                 border-radius: 2px;
                 margin: $spacing-unit/2 $spacing-unit/2 0;
+            }
+
+            @include media-query($medium) {
+                .project-tile {
+                    width: 100%;
+                    margin: $spacing-unit/2 0 0 0;
+                }
             }
         }
     }
@@ -540,6 +547,18 @@
         h3 {
             width: auto;
         }
+    }
+
+    @include media-query($small) {
+        .project-tile {
+            display: block;
+            width: 100%;
+        }
+
+        h1 {
+            margin-left: $spacing-unit/2;
+        }
+
     }
 }
 
