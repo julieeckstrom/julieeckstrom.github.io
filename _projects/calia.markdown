@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Boosting confidence in women to lead active lives
+title: Enabling women to lead active lives
 description: The CALIA by Carrie Underwood brand needed an eCommerce website before it launched in March of 2015. The product line was simple, and needed a minimal aesthetic to showcase it.
 organization: Dick's Sporting Goods
 year: 2015
@@ -15,7 +15,7 @@ images:
 
 ## Challenege
 
-CALIA by Carrie Underwood is a Dick's Sporting Goods women's athleisure brand. We were challenged with creating an eCommerce experience for the new product line that would launch a month away.
+<a target="_blank" href="http://www.caliastudio.com/home/index.jsp">CALIA by Carrie Underwood</a> is a Dick's Sporting Goods women's athleisure brand. We were challenged with creating an eCommerce experience for the new product line that would launch a month away.
 
 ## Process
 

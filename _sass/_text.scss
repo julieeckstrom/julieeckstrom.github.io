@@ -103,11 +103,15 @@ figure {
     text-align: center;
 }
 
-figcaption {
+figcaption, .scrollBlockCaption {
     font-size: 1.5em;
     font-weight: 700;
     margin-top: $spacing-unit/3;
     text-align: left;
+}
+
+.scrollBlockCaption {
+    margin-bottom: $spacing-unit*2;
 }
 
 .on-black {

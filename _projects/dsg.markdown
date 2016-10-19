@@ -15,13 +15,13 @@ images:
 
 ## Challenge
 
-The Dick's Sporting Goods mobile site needed some updating when I started. While at Dick's, I took the existing mobile site and updated its look. My goal for each one of the pages was to remove the visual clutter, construct a clear hierarchy, make everything appropriately sized for a mobile screen, and overall visual refinement. I was working within the existing style framework already established by the desktop site, and there were many instances where I had to make tradeoffs between usability and brand identity.
+The <a target="_blank" href="http://www.dickssportinggoods.com/">Dick's Sporting Goods</a> mobile site needed some updating when I started. While at Dick's, I took the existing mobile site and updated its look. My goal for each one of the pages was to remove the visual clutter, construct a clear hierarchy, make everything appropriately sized for a mobile screen, and overall visual refinement. I was working within the existing style framework already established by the desktop site, and there were many instances where I had to make tradeoffs between usability and brand identity. Examples of before and after on pages I designed can be seen below.
 
-<figure><img class="image scroll five columns" src="/assets/img/dsg/old-category.png"><img class="image scroll five columns" src="/assets/img/dsg/new-category.png"><figcaption>The old mobile category page (left) and the new mobile category page (right).</figcaption></figure>
+<div class="scrollBlock"><img class="image scroll" src="/assets/img/dsg/old-category.png"><img class="image scroll" src="/assets/img/dsg/new-category.png"></div><div class="image nine columns scrollBlockCaption">The old mobile category page (left) and the new mobile category page (right).</div>
 
-<figure><div class="one column"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/old-family.png"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/new-family.png"></div><div class="one column"></div><figcaption class="image nine columns">The old mobile family page (left) and the new mobile family page (right).</figcaption></figure>
+<div class="scrollBlock"><img class="image scroll" src="/assets/img/dsg/old-family.png"><img class="image scroll" src="/assets/img/dsg/new-family.png"></div><div class="image nine columns scrollBlockCaption">The old mobile family page (left) and the new mobile family page (right).</div>
 
-<figure><div class="one column"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/old-pdp.png"></div><div class="scroll five columns"><img class="image" src="/assets/img/dsg/new-pdp.png"></div><div class="one column"></div><figcaption class="image nine columns">The old mobile product display page (left) and the new mobile product display page (right).</figcaption></figure>
+<div class="scrollBlock"><img class="image scroll" src="/assets/img/dsg/old-pdp.png"><img class="image scroll" src="/assets/img/dsg/new-pdp.png"></div><div class="image nine columns scrollBlockCaption">The old mobile product display page (left) and the new mobile product display page (right).</div>
 
 My process for prototyping, designing, and communicating these changes was unusual due to the difficulty of making changes to an old code base. Something may not be possible given how the overall site is structured. Because of this, I would prototype using HTML/CSS on the existing site, and communicate changes with developers using my own code.
 
