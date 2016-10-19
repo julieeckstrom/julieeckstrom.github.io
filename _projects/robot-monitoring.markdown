@@ -51,7 +51,7 @@ I then returned to the digital space and created mid-fi interfaces. I user teste
 
 I then moved into hi-fi mockups, where I did a lot of team reviews. We would ponder over questions like where does time exist on the interface, and how all of the elements are aligned vertically and horizontally to all reflect the same time. I explained how the pieces of data would work together so that when a user interacted with a piece of information in one area of the screen, other data with the same timestamp would be highlighted on the screen. 
 
-<figure><img class="image nine columns" src="/assets/img/remote-monitoring/image-9.jpg"><figcaption class="image nine columns">The team working through problems over ice cream.</figcaption></figure>
+<figure><img class="image nine columns" src="/assets/img/remote-monitoring/image-9.JPG"><figcaption class="image nine columns">The team working through problems over ice cream.</figcaption></figure>
 
 I continued user testing, this time brining in people from other areas of the company and unfamiliar with the robots to identify usability issues. Ultimately, the designs went through 6 iterations of wireframes, and 3 iterations of mockups.
 
