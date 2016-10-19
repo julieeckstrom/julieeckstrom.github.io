@@ -25,9 +25,9 @@ As the project kicked-off, I began research with the Robot Software team. I sat 
 
 I took all of this research and created a list of needs that the Robot Software team has, and it extended far beyond what the team had originally considered. New to the list was an alert system that would direct the team's attention to where it was needed, a robot scheduling system, and a place to track maintenance performed. The team also needed a way to see each robot's historical hardware issues for context. They needed a way to use mission information to analyze how well robots were performing. They also needed a way to compare each robot's statistics against the entire fleet and filter that data for useful insights. Most important, the team needed all this information in one location, where engineers could see the past, present, and future information relevant for solving problems. Satisfying this long list of needs would become increasingly imperative as the robot fleet grew in size.
 
-<figure><img class="image six columns" src="/assets/img/remote-monitoring/image-1.jpg"><figcaption class="image six columns">Working through the information structure of the system.</figcaption></figure>
+<figure><img class="image six columns" src="/assets/img/remote-monitoring/image-1.JPG"><figcaption class="image six columns">Working through the information structure of the system.</figcaption></figure>
 
-<figure><img class="image ten columns" src="/assets/img/remote-monitoring/image-2.jpg"><img class="image ten columns" src="/assets/img/remote-monitoring/image-3.jpg"><figcaption>Working through different designs for how this system could work together.</figcaption></figure>
+<figure><img class="image ten columns" src="/assets/img/remote-monitoring/image-2.JPG"><img class="image ten columns" src="/assets/img/remote-monitoring/image-3.JPG"><figcaption>Working through different designs for how this system could work together.</figcaption></figure>
 
 It was immediately apparent that this is a huge system. Not only are there thousands of pieces of data to organize and visualize, but that data all exists through time. And that time may need to be viewed in a snapshot or as a continuum that may or may not be user specified. 
 
