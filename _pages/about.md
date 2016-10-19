@@ -21,7 +21,7 @@ order: 3
 
 <h1>About Julie</h1>
 
-<p>Julie is a designer involved in design research, interaction design, service design, experience design, and information design. At the moment she's working at Bossa Nova Robotics in Pittsburgh, PA. Julie is a strong believer in using design thinking to do good, and she believes that technology can create positive change in the world when many perspectives are involved in building it. She is interested how design thinking can help make technology fields more accessible to those who may be intimidated by traditional information structures or masculine language and design.</p>
+<p>Julie is a designer leading design research, interaction design, service design, experience design, and information design. At the moment she's working at Bossa Nova Robotics in Pittsburgh, PA. Julie is a strong believer in using design thinking to do good, and she believes that technology can create positive change in the world when many perspectives are involved in building it. She is interested how design thinking can help make technology fields more accessible to those who may be intimidated by traditional information structures or masculine language and design.</p>
 
 <p>In robotics, Julie is demonstrating a holistic approach to design by creating an entire human experience around a robot, from the virtual experience of the software engineers who operate and monitor the robots to the physical experience of passersby to the robot.</p>
 
