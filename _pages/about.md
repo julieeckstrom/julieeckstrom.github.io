@@ -9,7 +9,7 @@ order: 3
 <section class="about">
 
 <div id="bio">
-	<p>Julie is a design researcher, interaction, experience, information, and service designer. At the moment, she's working at Bossa Nova Robotics in Pittsburgh, PA. Julie is a strong believer in using design thinking to create positive change when many perspectives are involved. She is interested how design thinking can help make technology fields more accessible to those who may be intimidated by traditional information structures or masculine language and design.</p>
+	<p>Julie is a design researcher, interaction, experience, information, and service designer. She's working at Bossa Nova Robotics in Pittsburgh, PA. Julie is a strong believer in using design thinking to create positive change when many perspectives are involved. She is interested how design thinking can help make technology fields more accessible to those who may be intimidated by traditional information structures or masculine language and design.</p>
 
 	<p>Julie is approaching robotics holistically by creating an entire human experience around a robot, from the virtual experience of the software engineers who operate and monitor the robots to the physical experience of passersby to the robot.</p>
 
@@ -21,7 +21,7 @@ order: 3
 	<ul>
 		<li>julie.eckstrom@gmail.com</li>
 		<li>843.263.9243</li>
-		<li><a href="https://www.linkedin.com/in/julieeckstrom">Linked In</a></li>
+		<li><a href="https://www.linkedin.com/in/julieeckstrom">LinkedIn</a></li>
 	</ul>
 	</p>
 </div>
