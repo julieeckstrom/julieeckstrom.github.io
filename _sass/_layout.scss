@@ -296,6 +296,7 @@
 
 .sample-projects {
     background: $light-grey;
+    margin-top: 75px;
 
     .sample-projects-wrapper {
         margin: 0 auto;
@@ -312,6 +313,75 @@
 
         @include media-query($small) {
             height: 550px;
+        }
+    }
+
+    #next_project, #previous_project {
+        .project-tile .overlay {
+            display: block;
+        }
+
+        .project-info {
+            display: none;
+        }
+    }
+
+    #next_project .navigation.next:before {
+        content: 'next project';
+    }
+
+    #previous_project .navigation.previous:before {
+        content: 'previous project';
+    }
+
+    #next_project .navigation, #previous_project .navigation {
+        position: absolute;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        color: $white;
+        font-weight: 700;
+        -webkit-transition: background-position 0.5s; /* Safari */
+        transition: background-position 0.5s;
+    }
+
+    #next_project .navigation {
+        left: 74%;
+        width: 180px;
+        height: 130px;
+        font-size: 3em;
+        background: url(../assets/img/right-arrow.png) no-repeat;
+        background-size: 50px 30px;
+        background-position: 86% 40%;
+
+        @include media-query($medium) {
+            left: 67%;
+        }
+    }
+
+    #next_project:hover {
+        .navigation {
+            background-position: 100% 40%;
+        }
+    }
+
+    #previous_project .navigation {
+        left: 22%;
+        text-align: right;
+        font-size: 1.8em;
+        width: 146px;
+        height: 109px;
+        background: url(../assets/img/left-arrow.png) no-repeat;
+        background-size: 25px 15px;
+        background-position: 11% 30%;
+
+        @include media-query($medium) {
+            left: 27%;
+        }
+    }
+
+    #previous_project:hover {
+        .navigation {
+            background-position: 0% 30%;
         }
     }
 }
