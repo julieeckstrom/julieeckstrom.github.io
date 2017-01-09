@@ -6,7 +6,7 @@ organization: Dick's Sporting Goods
 year: 2015
 order: 6
 featured: no
-role: UX Designer
+role: UX designer
 images: 
  - url: /assets/img/dsg/hero.png
    title: The Dick's Sporting Goods mobile and tablet sites.

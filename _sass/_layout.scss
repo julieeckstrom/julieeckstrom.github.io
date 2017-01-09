@@ -87,11 +87,11 @@
 
 
         @include media-query($small) {
-            position: absolute;
-            top: 9px;
-            right: $spacing-unit / 2;
-            border-radius: 5px;
-            text-align: right;
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
 
             .close-icon {
                 display: none;
@@ -130,6 +130,10 @@
                 &.open {
                     display: block;
                     padding-bottom: 5px;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    padding-top: 30%;
                 }
             }
 
@@ -137,6 +141,9 @@
                 display: block;
                 padding: 5px 10px;
                 color: $white;
+                text-align: center;
+                font-size: 3em;
+                font-weight: 700;
 
                 &:not(:last-child) {
                     margin-right: 0;
@@ -157,10 +164,8 @@
  */
 .site-footer {
     padding: $spacing-unit*2 $spacing-unit;
-    background: $black;
-    color: $almost-white;
+    background: $medium-grey;
     font-family: $header-font-family;
-    text-transform: uppercase;
 
     ul {
         list-style-type: none;
@@ -169,33 +174,15 @@
         li {
             font-size: 12px;
             line-height: 18px;
+            text-align: right;
+            font-weight: 300;
+            color: $dark-grey;
         }
     }
 
-    @include media-query($medium) {
-        text-align: center;
-
-        .site-title {
-            margin: 1em auto !important;
-        }
-
-        .social {
-            text-align: center !important;
-            padding: 0 !important;
-        }
-    }
-
-    @include media-query($small) {
-        padding: $spacing-unit $spacing-unit/3;
-
-        .site-title {
-            margin: 0 auto;
-        }
-
-        p {
-            margin-top: $spacing-unit;
-            font-size: 14px !important;
-        }
+    .footer-wrapper {
+        max-width: 970px;
+        margin: 0 auto;
     }
 
     p {
@@ -206,41 +193,55 @@
         margin-bottom: 0px;
     }
 
-    .site-title {
-        width: 190px;
-        height: 70px;
-        display: block;
-        margin: 0 auto;
-        vertical-align: top;
-        background-image: url("/assets/img/logo.svg");
-        background-size: 190px;
-        background-position: 0 -1px;
-        background-repeat: no-repeat;
-        cursor: pointer;
-
-        &:hover {
-            background-position: 0 -71px;
-        }
+    .footer-contact {
+        float: right;
     }
 
     .footer-nav {
-        text-transform: uppercase;
-        margin-left: 0px;
-        font-size: 1.2em;
+        display: inline-block; 
 
         .page-link {
-            margin: 0 20px;
-            font-size: 16px;
-            font-weight: 400;
+            color: $dark-grey;
+            font-family: $base-font-family;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            line-height: $base-line-height;
+            padding-bottom: 0.5em;
+
+
+            // Gaps between nav items, but not on the last one
+            &:not(:last-child) {
+                margin-right: 25px;
+
+                @include media-query($medium) {
+                    margin-right: 15px;
+                }
+            }
+
+            &:hover {
+                color: $accent-color;
+            }
         }
     }
 
-    .social {
-        text-align: right;
-        padding: 8px 0;
-        .icon img {
-            height: 40px;
-            width: auto;
+    @include media-query($small) {
+        .footer-wrapper {
+            text-align: center;
+        }
+
+        .footer-nav {
+            margin: 0 auto;
+        }
+
+        .footer-contact {
+            float: none;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        ul li {
+            text-align: center;
         }
     }
 
@@ -539,7 +540,7 @@
 
 
 .about-body {
-    background: url(../assets/img/about.png) no-repeat center center fixed;
+    background: url(../assets/img/about.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -555,6 +556,7 @@
         width: 50%;
         margin-top: 10em;
         margin-right: 30px;
+        margin-bottom: 10em;
     }
 }
 

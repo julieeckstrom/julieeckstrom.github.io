@@ -1,5 +1,18 @@
 $( document ).ready(function() {
     
+    //sticky header
+    $(window).on("scroll", function() {
+        console.log('scrolled');
+        var fromTop = $("body").scrollTop();
+        if(fromTop > $(".site-header").height) {
+            $(".site-header").addClass("sticky");
+        } else {
+            $(".site-header").removeClass("sticky");
+        }
+    });
+
+
+    //menu icon for mobile
     $(".site-nav").click(function() {
 		if (window.innerWidth < 550) {
 			if (!($(".menu-icon").hasClass("invisible"))) {
@@ -18,5 +31,4 @@ $( document ).ready(function() {
 			}
     	}
     });
-
 });

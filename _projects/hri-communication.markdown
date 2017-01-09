@@ -3,10 +3,10 @@ layout: project
 title:  Communicating a robot's thoughts
 description: Acceptance into the social space within a robot's environment is crucial to the successful completion of its work. We created a communication system that showcases the designed persona that would lead to acceptance and helped people feel safe moving around the autonomous robot.
 organization: Bossa Nova Robotics
-year: 2015 - ongoing
+year: 2015
 order: 4
 featured: no
-role: Lead Designer
+role: lead designer
 images: 
  - url: /assets/img/hri-communication/hero.png
    title: Gaeta+ with attached LEDs

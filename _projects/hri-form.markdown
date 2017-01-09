@@ -3,10 +3,10 @@ layout: project
 title: Creating a robot that elicits love
 description: How do you make people protect a robot? By eliciting love through designed human-robot interaction. Our robot's form had to be perceived as friendly, small, and approachable, all within strict engineering contraints. We transformed a looming 6-foot-tall robot into a short and friendly robot, without making it appear interactive.
 organization: Bossa Nova Robotics
-year: 2015 - ongoing
+year: 2015
 order: 2
 featured: no
-role: Designer
+role: designer
 images: 
  - url: /assets/img/hri-form/hero.JPG
    title: A foam model moving down an aisle.

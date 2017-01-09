@@ -3,10 +3,10 @@ layout: project
 title: Empowering engineers to efficiently monitor their robot fleet
 description: A fleet management system that focuses engineers' attention on the robots that need it, while being flexible enough to diagnose robot-specific bugs and discover fleet-wide trends.
 organization: Bossa Nova Robotics
-year: 2016 - ongoing
+year: 2016
 order: 3
 featured: yes
-role: Lead Designer
+role: lead designer
 images: 
  - url: /assets/img/remote-monitoring/hero.png
    title: Mockups of the remote monitoring interface.
