@@ -4,7 +4,7 @@ title: Supporting atheltes with the right gear on their journey
 description: The Dick's Sporting Goods mobile site was dated and needed updates to make it more usable. I refreshed the visual design of the mobile site to make it easier for those shopping to get the gear they need.
 organization: Dick's Sporting Goods
 year: 2015
-order: 6
+order: 5
 featured: no
 role: UX designer
 images: 

@@ -4,7 +4,7 @@ title:  Discovering how shoppers feel about robots
 description: Research within retail stores in the United States revealed a baseline for how people feel about robots being within that environment. As it turns out, people can simultaneously be excited and fear being replaced. This research informed attributes and a persona to use in the design of the next generation of robot.
 organization: Bossa Nova Robotics
 year: 2015
-order: 1
+order: 4
 featured: yes
 role: researcher and designer
 images: 
