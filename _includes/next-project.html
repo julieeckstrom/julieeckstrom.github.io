@@ -20,7 +20,10 @@
 {% assign close_projects = previous_project,next_project %}
 {% assign close_projects = close_projects | push:next_project[0] %}
 
-<h1>More of my work...</h1>
-{% for project in close_projects %}
-	{% include individual-project.html project=project %}
-{% endfor %}
+<div class="sample-projects">
+	<div class="sample-projects-wrapper">
+	{% for project in close_projects %}
+		{% include individual-project.html project=project %}
+	{% endfor %}
+	</div>
+</div>

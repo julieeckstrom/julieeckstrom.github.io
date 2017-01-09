@@ -6,6 +6,7 @@ organization: Bossa Nova Robotics
 year: 2015 - ongoing
 order: 4
 featured: no
+role: Lead Designer
 images: 
  - url: /assets/img/hri-communication/hero.png
    title: Gaeta+ with attached LEDs

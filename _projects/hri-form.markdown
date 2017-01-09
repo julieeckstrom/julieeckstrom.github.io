@@ -6,6 +6,7 @@ organization: Bossa Nova Robotics
 year: 2015 - ongoing
 order: 2
 featured: no
+role: Designer
 images: 
  - url: /assets/img/hri-form/hero.JPG
    title: A foam model moving down an aisle.

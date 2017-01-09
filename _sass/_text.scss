@@ -17,52 +17,17 @@ body {
 
 
 /*  Headings  */
-h1, h2, h3, .display-1, .display-2 {
-    font-family: $header-font-family;
+h1, h2, h3 {
+    font-family: $base-font-family;
 }
 
 h1, h2, h3 {
     color: $text-color;
 }
 
-.display-1 {
-    margin: 100px 20px 200px;
+h1, .h1 { 
+    font-size: 1.6em;
     font-weight: 700;
-    font-size: 6em;
-
-    @include media-query($medium) {
-        margin-top: 50px;
-        margin-bottom: 140px;
-        font-size: 5em;
-    }
-
-    @include media-query($small) {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        font-size: 4em;
-    }
-}
-
-.display-2 {
-    font-size: 4em;
-    color: $white;
-
-    &.dark {
-        color: $text-color;
-    }
-
-    @include media-query($medium) {
-        font-size: 3em;
-    }
-
-    @include media-query($smallest) {
-        font-size: 2.4em;
-    }
-}
-
-h1 { 
-    font-size: 2.8em;
-    font-weight: 500;
 }
 
 h2 { 
@@ -70,6 +35,10 @@ h2 {
     font-weight: 700;
     margin-top: $spacing-unit;
     color: #3a3a3a;
+
+    &.onColor {
+        color: $white;
+    }
 }
 
 h3 { 
@@ -86,6 +55,12 @@ h3 {
             color: $accent-color;
         }
     }
+}
+
+h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: $white;
 }
 
 h1, h2, p, ul, ol {
@@ -118,11 +93,12 @@ figcaption, .scrollBlockCaption {
     color: $white;
 }
 
-.blurb {
-    font-size: 1.5em;
-    line-height: 1.8em;
-    margin: 1em auto;
-    width: 80%;
+p {
+    font-weight: 400;
+
+    &.deemphasized {
+        color: $medium-grey;
+    }
 }
 
 

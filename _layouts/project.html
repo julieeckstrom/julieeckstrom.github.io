@@ -1,20 +1,14 @@
 ---
-layout: with-bleed
+layout: without-bleed
 ---
 
 <section class="project">
 	<div class="intro">
 		<div class="hero-image" style="background: url({{ page.images[0].url }}) no-repeat fixed; background-size: cover; background-position: center center;"></div>
-		<div class="project-header" style="background: url({{ page.images[1].url }}) no-repeat fixed; background-size: cover; background-position: center center;">
-			<div class="dark-bg"></div>
-			<div class="text">
-				<h3 class="on-black"><span>{{ page.organization }}</span><span class="separator">//</span><span>{{ page.year }}</span></h3>
-				<div class="display-2">{{ page.title }}</div>
-				<p class="blurb on-black">{{ page.description }}</p>
-			</div>
-  		</div>
 	</div>
 	<div class="project-content wrapper">
+		<p><span class="h1">{{ page.title }} </span><span class="blurb">{{ page.description }}</span></p>
+		<p>I was the {{ page.role }} for this project done at {{ page.organization }} in {{ page.year }}.</p>
 		{{ content }}
 	</div>
 	<div class="project-sample">

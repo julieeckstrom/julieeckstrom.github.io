@@ -1,13 +1,14 @@
 {% assign project = include.project %}
 
-<a href="{{ project.url | prepend: site.baseurl }}">
 <div class="project-tile">
+<a href="{{ project.url | prepend: site.baseurl }}">
 	<div class="project-image" style="background-image: url(..{{ project.images[0].url }})"></div>
-	<div class="project-overlay"></div>
-	<div class="project-info">
-		<h3><span>{{ project.organization }}</span><span class="separator">//</span><span>{{ project.year }}</span></h3>
-		<div class="display-2">{{ project.title }}</div>
-		<div class="project-link button primary">View Project</div>
+	<div class="overlay">
+		<div class="background-color"></div>
+		<div class="project-info">
+			<h2 class="onColor">{{ project.title }}</h2>
+			<h4>{{ project.role }}, {{ project.organization }}</h4>
+		</div>
 	</div>
-</div>
 </a>
+</div>

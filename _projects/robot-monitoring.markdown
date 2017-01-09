@@ -6,6 +6,7 @@ organization: Bossa Nova Robotics
 year: 2016 - ongoing
 order: 3
 featured: yes
+role: Lead Designer
 images: 
  - url: /assets/img/remote-monitoring/hero.png
    title: Mockups of the remote monitoring interface.

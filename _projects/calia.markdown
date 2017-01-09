@@ -6,6 +6,7 @@ organization: Dick's Sporting Goods
 year: 2015
 order: 7
 featured: no
+role: UX Designer
 images: 
  - url: /assets/img/calia/hero.jpg
    title: The CALIA studio website.

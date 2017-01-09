@@ -6,6 +6,7 @@ organization: CMU / Teletracking
 year: 2014
 order: 5
 featured: no
+role: Designer
 images: 
  - url: /assets/img/touchpoint/hero.png
    title: The touchpoint app lying amongst the artifacts of life

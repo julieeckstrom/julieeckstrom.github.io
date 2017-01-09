@@ -6,6 +6,7 @@ organization: Bossa Nova Robotics
 year: 2015
 order: 1
 featured: yes
+role: Researcher and Designer
 images: 
  - url: /assets/img/hri-research/hero.png
    title: Gaeta+ in a retail store
