@@ -266,6 +266,7 @@
         font-size: 4em;
         line-height: 1.3em;
         font-weight: 500;
+        padding-top: 50px;
     }
 }
 
@@ -401,8 +402,9 @@
     }
 
     .image-bucket {
-        height: 400px;
-        width: 550px;
+        height: 300px;
+        width: 450px;
+        border-radius: 4px;
         display: inline-block;
         overflow: hidden;
         margin: 0 50px 0 0;
@@ -413,7 +415,6 @@
         background-position: center;
         width: 100%;
         display: inline-block;
-        border-radius: 4px;
     }
 
     .background-color {

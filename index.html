@@ -5,7 +5,7 @@ title: Home
 ---
 
 <section class="home-intro wrapper">
-<p>Julie is a product designer currently creating for Uber's self-driving cars in Pittsburgh, PA</p>
+<p>Julie is a product designer <br>currently creating for Uber's self-driving cars <br>in Pittsburgh, PA</p>
 <div class="contact">
 	<div class="button accent">Linked In</div>
 	<div class="contact-text">julie.eckstrom@gmail.com</div>
@@ -14,6 +14,16 @@ title: Home
 
 <section class="work wrapper">
 	<div id="projects">
+	<div class="project-tile">
+		<div class="image-bucket">
+			<img class="project-image" src="{{ project.images[0].url }}">
+		</div>
+		<div class="project-info">
+			<h3>Uber Advanced Technology Center</h3>
+			<h2>Internal tools for 3D maps</h2>
+			<p>I lead AV Maps design, including tools to create, initiate, and view 3D maps that enable self-driving cars.</p>
+		</div>
+	</div>
 		{% include project-list.html %}
 	</div>
 </section>

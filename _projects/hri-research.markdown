@@ -6,7 +6,7 @@ description: Research within retail stores in the United States revealed a basel
 organization: Bossa Nova Robotics
 year: 2015
 order: 4
-featured: yes
+featured: no
 role: researcher and designer
 images: 
  - url: /assets/img/hri-research/hero.png
