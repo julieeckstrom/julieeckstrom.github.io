@@ -1,5 +1,6 @@
 ---
 layout: project
+title-short: Human-Robot Interaction
 title: Creating a robot that elicits love
 description: How do you make people protect a robot? By eliciting love through designed human-robot interaction. Our robot's form had to be perceived as friendly, small, and approachable, all within strict engineering contraints. We transformed a looming 6-foot-tall robot into a short and friendly robot, without making it appear interactive.
 organization: Bossa Nova Robotics

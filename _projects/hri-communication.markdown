@@ -1,5 +1,6 @@
 ---
 layout: project
+title-short: Human-Robot Interaction
 title:  Communicating a robot's thoughts
 description: Acceptance into the social space within a robot's environment is crucial to the successful completion of its work. We created a communication system that showcases the designed persona that would lead to acceptance and helped people feel safe moving around the autonomous robot.
 organization: Bossa Nova Robotics
