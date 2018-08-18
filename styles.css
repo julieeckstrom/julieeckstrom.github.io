@@ -1,0 +1,167 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	background: #FFFEF9;
+	line-height: 1;
+}
+
+section#intro {
+	height: 500px;
+	padding-top: 300px;
+}
+
+p#title {
+	font-size: 50px;
+	color: #000000; /* replace to black variable */
+	font-family: 'Vollkorn', serif; /* replace to type variable */
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	line-height: 60px;
+	padding-bottom: 20px;
+}
+
+div.links {
+	text-align: center;
+}
+
+div.social, div.button-round {
+	height: 60px;
+	width: 60px;
+	margin: 0 auto;
+}
+
+div.button-round {
+	text-align: center;
+	border-radius: 30px;
+	display: inline-block;
+	opacity: 0.7;
+	transition: background-color 0.25s;
+}
+
+div.button-round:hover {
+	background-color: #EEECE1;
+	opacity: 1;
+}
+
+div.social#instagram {
+	background: url(img/instagram.png) no-repeat;
+	background-size: 30px;
+	background-position: 50%;
+}
+
+div.social#linked-in {
+	background: url(img/linked-in.png) no-repeat;
+	background-size: 30px;
+	background-position: 50%;
+}
+
+h1 {
+	font-size: 70px;
+	color: #ffffff; /* replace to white variable */
+	font-family: 'Vollkorn', serif; /* replace to type variable */
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+p {
+	font-family: "Vollkorn", sans-serif; /* replace to type variable */
+	color: #ffffff; /* replace with white variable */
+	font-size: 19px;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+div.experience h1 {
+	padding-top: 90px;
+}
+
+div.experience p {
+	width: 40%;
+}
+
+div.experience {
+	height: 500px;
+	margin: 20px 80px;
+	padding: 0 70px;
+	overflow: hidden;
+}
+
+div#uber {
+	background: #605F5F;
+}
+
+div#bossa-nova {
+	background: #78A0A9;
+}
+
+div#dsg {
+	background: #809F81;
+}
+
+div#branding-brand {
+	background: #A76D6D;
+}
+
+div#cmu {
+	background-color: #8B4D45;
+	background: url(img/tartan-pattern.png) repeat;
+	text-align: center;
+}
+
+div#cmu p {
+	margin: 0 auto;
+	width: 40%;
+}
+
+div#cmu h1 {
+	padding-top: 130px;
+}
+
+footer div {
+	margin: 0;
+	margin-top: 230px;
+	height: 40px;
+	background: #EEECE1; /* replace with variable */
+}
+
+
+@media only screen and (max-width: 1050px) {
+	div.experience {
+		margin: 20px 40px;
+	}
+
+	section#intro {
+		height: 460px;
+		padding-top: 260px;
+	}
+
+	div#cmu p {
+		width: 60%;
+	}
+}

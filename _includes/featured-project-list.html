@@ -1,5 +1,0 @@
-{% assign featured_projects = site.projects | where:"featured", "true" %}
-
-{% for project in featured_projects %}
-	{% include individual-project.html project=project %}
-{% endfor %}

@@ -1,5 +1,0 @@
-{% assign sorted_projects = site.projects | sort:"order" %}
-
-{% for project in sorted_projects %}
-	{% include individual-project.html project=project %}
-{% endfor %}
